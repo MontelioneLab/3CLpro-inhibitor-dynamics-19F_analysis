@@ -1,0 +1,108 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/2032/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-29T20:16:06.642-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=2032 PROCNO=1>)
+(   2,<2026-01-29T20:16:13.392-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 SW to 60.6576>)
+(   3,<2026-01-29T20:16:17.543-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TD to 131072>)
+(   4,<2026-01-29T20:16:21.939-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 O1P to -130.000>)
+(   5,<2026-01-29T20:16:43.513-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 P 1 to 11.0000>)
+(   6,<2026-01-30T01:16:52.411+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   7,<2026-01-30T01:18:29.237+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '5bde16aa-fd79-11f0-97b3-0030d62e2a2f'
+       started at 2026-01-30 01:16:52.411 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:18:29.236 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       F1 83 F6 45 4B B2 36 93 D3 58 6D 66 91 83 A4 A3>)
+(   8,<2026-01-30T01:21:20.110+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   9,<2026-01-30T01:23:01.912+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID 'fb6d3eee-fd79-11f0-b9c4-0030d62e2a2f'
+       started at 2026-01-30 01:21:20.110 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:23:01.911 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       12 25 07 D7 C5 6F F9 72 D3 A5 4B 79 06 5C 7F 13>)
+(  10,<2026-01-30T01:23:03.397+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  11,<2026-01-30T01:24:43.263+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '38fa4a68-fd7a-11f0-a0ed-0030d62e2a2f'
+       started at 2026-01-30 01:23:03.397 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:24:43.262 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       F2 26 FE A4 7D F9 CF 13 6B 7E 80 0D 29 39 EA D9>)
+(  12,<2026-01-30T01:24:44.788+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  13,<2026-01-30T01:26:25.435+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '75699a12-fd7a-11f0-a621-0030d62e2a2f'
+       started at 2026-01-30 01:24:44.787 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:26:25.434 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       3F DE 86 24 DA 3E 3A 5A 50 D7 64 CF 0F A9 99 12>)
+(  14,<2026-01-30T01:26:26.929+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  15,<2026-01-30T01:28:06.894+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID 'b2503120-fd7a-11f0-881a-0030d62e2a2f'
+       started at 2026-01-30 01:26:26.929 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:28:06.893 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       41 D1 5A A0 7B 70 9A A7 EA CC 37 98 40 11 BE 60>)
+(  16,<2026-01-30T01:28:08.891+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  17,<2026-01-30T01:29:49.417+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID 'ef134430-fd7a-11f0-9939-0030d62e2a2f'
+       started at 2026-01-30 01:28:08.891 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:29:49.416 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       27 26 0F D4 0E B0 8B 8F 6D B2 C7 C1 55 F2 46 25>)
+(  18,<2026-01-30T01:29:51.180+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  19,<2026-01-30T01:31:31.396+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '2c0b1e12-fd7b-11f0-9f5d-0030d62e2a2f'
+       started at 2026-01-30 01:29:51.180 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:31:31.395 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       93 BA 3E 8E 5D 58 EB F5 E8 04 EF 7B 66 A7 60 69>)
+(  20,<2026-01-30T01:31:33.242+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  21,<2026-01-30T01:33:14.247+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '68e3ded2-fd7b-11f0-a98b-0030d62e2a2f'
+       started at 2026-01-30 01:31:33.242 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-30 01:33:14.246 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       36 C5 2D C0 91 53 C5 5E B9 55 05 BE 64 65 01 E4>)
+##END=
+
+$$ hash MD5
+$$ 78 2B 19 7F C8 85 2E BF 07 C5 C9 97 00 2E 3A 32

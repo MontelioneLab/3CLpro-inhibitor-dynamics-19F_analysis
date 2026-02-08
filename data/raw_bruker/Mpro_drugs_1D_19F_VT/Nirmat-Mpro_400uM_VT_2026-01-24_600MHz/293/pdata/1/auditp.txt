@@ -1,0 +1,85 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_VT_2026-01-24/293/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-24T12:10:54.121-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-24T12:36:50.498-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 19.07593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       6E A1 9B D2 D2 70 5F 29 C1 60 3E 07 5A 31 14 0F>)
+(   3,<2026-01-24T12:42:31.542-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 19.07593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       48 FB 16 41 55 72 B9 2D A5 C8 38 1F B4 BF C0 B5>)
+(   4,<2026-01-24T12:48:33.987-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 19.07593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       3B 0F BD 0C 38 4C C0 2B F1 FA AC A2 39 8C 8E B4>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Mohawk-600NMR-data/ADF_TR_Nirmat400-Mpro400_VT_2026-01-24/293/pdata/1/auditp.txt
+(   5,<2026-01-27 09:51:43.022 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 19.07593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       3B 0F BD 0C 38 4C C0 2B F1 FA AC A2 39 8C 8E B4>)
+(   6,<2026-01-27 09:52:07.493 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <pk fgphup PHC0 = 4.8 PHC1 = 0 
+       data hash MD5: 64K
+       D6 7E 04 BE ED 1B 0A C8 3D 34 C7 03 BD 8B A5 E9>)
+(   7,<2026-01-27 09:58:48.458 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -80 ABSF1 = -60 
+       data hash MD5: 64K
+       D7 08 81 EE BF 3A 66 B6 F9 79 82 7A 7C 2A 12 E0>)
+(   8,<2026-01-27 10:09:53.501 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 23.87593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       B7 7E CB 4B 8B 18 20 E6 2A BD 7B D2 34 A7 1D E4>)
+(   9,<2026-01-27 10:10:17.220 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <pk fgphup PHC0 = 0.6 PHC1 = 0 
+       data hash MD5: 64K
+       1A D3 52 FF DE 06 D3 87 2D C0 88 AC 96 1D E4 BE>)
+(  10,<2026-01-27 10:10:21.191 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -80 ABSF1 = -60 
+       data hash MD5: 64K
+       7A 74 0F 30 32 A6 43 1C 3F D8 93 2A 1D 86 67 E1>)
+(  11,<2026-01-29 18:24:45.425 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 24.47593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       CA 9E 01 8B 31 69 65 2E 87 E5 F0 BC 77 51 12 C0>)
+(  12,<2026-01-29 18:25:21.927 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       A3 10 6E 4E F6 A8 6F A6 FB 25 15 59 62 D0 69 DC>)
+(  13,<2026-01-29 18:25:21.990 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -80 ABSF1 = -60 
+       data hash MD5: 64K
+       81 E5 B0 F3 D2 4B CE A6 2D 8C 82 72 4D 0F 5C 4B>)
+(  14,<2026-01-29 18:25:31.696 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 24.47593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       CA 9E 01 8B 31 69 65 2E 87 E5 F0 BC 77 51 12 C0>)
+(  15,<2026-01-29 18:25:42.474 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 24.47593 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       CA 9E 01 8B 31 69 65 2E 87 E5 F0 BC 77 51 12 C0>)
+(  16,<2026-01-29 18:25:43.797 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       A3 10 6E 4E F6 A8 6F A6 FB 25 15 59 62 D0 69 DC>)
+(  17,<2026-01-29 18:25:45.516 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -80 ABSF1 = -60 
+       data hash MD5: 64K
+       81 E5 B0 F3 D2 4B CE A6 2D 8C 82 72 4D 0F 5C 4B>)
+##END=
+
+$$ hash MD5
+$$ 8E BE CD 7E 42 2A E3 3D 43 B5 A4 B9 79 A7 93 BB

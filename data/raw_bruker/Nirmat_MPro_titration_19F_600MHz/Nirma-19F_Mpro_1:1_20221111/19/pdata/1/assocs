@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.0.9
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 6	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= monteg3
+$$ 2026-01-28 17:15:33.986 -0500  ramelt2@valine-57.dynamic2.rpi.edu
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Pharaoh-600NMR-data/Nirma-19F_Mpro_1:1_20221111/19/pdata/1/assocs
+$$ process /opt/topspin4.0.9/prog/mod/dataserver
+##$MULTDISP= </Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Pharaoh-600NMR-data/Nirma-19F_Mpro_0.25_20221111/19/pdata/1>
+##END=

@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_VT_2026-01-28/313/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-28T15:46:21.523-0500>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-28T20:23:22.263-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 329.06 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       8B 34 3D E6 D3 3C 05 71 D1 CF E2 5C 43 C3 A4 56
+       data hash MD5: 64K
+       AE C2 8D 94 05 40 56 E2 24 62 A2 6D 2C 61 86 3B>)
+(   3,<2026-01-28T20:23:26.100-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk0
+       data hash MD5: 64K
+       35 B5 61 0F 87 4F 13 0E CB 6B 0F A6 FD 38 71 10>)
+(   4,<2026-01-28T20:23:30.194-0500>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 LB to 10.00>)
+(   5,<2026-01-28T20:32:18.008-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 340.34 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       D1 84 FB 68 D8 09 97 15 87 49 DF 96 A1 1F 76 32
+       data hash MD5: 64K
+       77 3E 35 AE C4 56 B0 C0 61 64 77 64 75 B5 08 E9>)
+(   6,<2026-01-28T20:32:23.229-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk0
+       data hash MD5: 64K
+       8E 40 71 FA 9D FB E5 5F 89 EA AD 19 9E 9F 14 0D>)
+(   7,<2026-01-28T20:37:24.728-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 341.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       4B 79 2A F2 6F E7 B2 0A AC A9 54 76 10 DC F8 7D
+       data hash MD5: 64K
+       E4 48 FF CF 21 3A A9 7F DD 14 A3 08 BF 90 53 27>)
+##END=
+
+$$ hash MD5
+$$ 76 5E 91 B2 CA 1D 8C C1 79 22 7B 4C 86 49 87 C1

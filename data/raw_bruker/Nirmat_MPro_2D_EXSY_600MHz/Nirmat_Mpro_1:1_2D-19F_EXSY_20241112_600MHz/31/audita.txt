@@ -1,0 +1,81 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy/31/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-11-12T13:28:41.949-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=31 PROCNO=1>)
+(   2,<2024-11-12T13:29:07.447-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 NUC1 to 19F>)
+(   3,<2024-11-12T13:29:07.449-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 NUC2 to 19F>)
+(   4,<2024-11-12T13:29:07.452-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 BF1 to 564.6299320>)
+(   5,<2024-11-12T13:29:07.454-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 BF2 to 564.6299320>)
+(   6,<2024-11-12T13:29:07.459-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O1 to 0>)
+(   7,<2024-11-12T13:29:07.461-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O2 to 0>)
+(   8,<2024-11-12T13:29:07.462-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O3 to 0>)
+(   9,<2024-11-12T13:29:07.463-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O4 to 0>)
+(  10,<2024-11-12T13:29:07.465-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O5 to 2820.33>)
+(  11,<2024-11-12T13:29:07.466-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O6 to 2820.33>)
+(  12,<2024-11-12T13:29:07.467-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O7 to 2820.33>)
+(  13,<2024-11-12T13:29:07.469-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O8 to 2820.33>)
+(  14,<2024-11-12T13:29:07.493-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 NLOGCH to 4>)
+(  15,<2024-11-12T13:29:07.501-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 NUC1 to off>)
+(  16,<2024-11-12T13:29:26.405-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 TD to 256>)
+(  17,<2024-11-12T13:29:29.243-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TD to 32>)
+(  18,<2024-11-12T13:29:31.498-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 DS to 8>)
+(  19,<2024-11-12T13:29:33.659-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 NS to 32>)
+(  20,<2024-11-12T13:29:36.962-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 SW to 2.0126>)
+(  21,<2024-11-12T13:29:38.933-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 SW to 1.0000>)
+(  22,<2024-11-12T13:29:54.734-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 O1P to -72.000>)
+(  23,<2024-11-12T13:29:57.664-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 O1P to -72.000>)
+(  24,<2024-11-12T13:31:03.962-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 1 to 4.000000000>)
+(  25,<2024-11-12T13:31:11.002-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 TD to 512>)
+(  26,<2024-11-12T13:31:48.039-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 8 to 0.010000000>)
+(  27,<2024-11-12T13:32:20.968-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TD to 16>)
+(  28,<2024-11-12T13:32:55.321-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TD to 24>)
+(  29,<2024-11-12T13:33:07.496-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 1 to 5.000000000>)
+(  30,<2024-11-12T13:33:14.584-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 1 to 4.000000000>)
+(  31,<2024-11-12T18:33:30.773+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  32,<2024-11-12T19:28:53.930+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '9d84446a-a124-11ef-abba-0030d62e2a2f'
+       started at 2024-11-12 18:33:30.773 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2024-11-12 19:28:53.927 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       3B 2B BA 00 87 5C 74 02 B8 C5 EE 87 7C D3 B2 5A>)
+##END=
+
+$$ hash MD5
+$$ D3 F7 EA 6F 2B 36 4B A8 36 9C 62 54 B1 2E D0 9F

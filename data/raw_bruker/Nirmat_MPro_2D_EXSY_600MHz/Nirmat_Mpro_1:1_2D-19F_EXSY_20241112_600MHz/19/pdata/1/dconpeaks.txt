@@ -1,0 +1,15 @@
+Data set: /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Mohawk-600NMR-data/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12/19/pdata/1/
+
+Fit type: Mixed Lorentzian and Gaussian
+
+Fit        Frequency             Width        Intensity       Area     %Lor.
+         ppm        Hz        ppm         Hz                           chisq
+
+  1                                                                  1.8e+17
+
+      -71.937 -40617.77    0.11981     67.649     13.899  10647.085    100.00
+STD:    0.000      0.06    0.00032      0.182      0.022
+
+      -72.171 -40750.01    0.15097     85.241      7.610   7345.540    100.00
+STD:    0.000      0.12    0.00067      0.380      0.020
+

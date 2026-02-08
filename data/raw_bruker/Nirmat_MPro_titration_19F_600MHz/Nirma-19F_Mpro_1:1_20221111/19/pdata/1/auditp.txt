@@ -1,0 +1,115 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= monteg3
+$$ /opt/topspin3.5pl6/data/monteg3/nmr/Nirma-19F_Mpro_1:1_20221111/19/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-11-11 17:39:49.327 -0500>,<monteg3>,<pharaoh.chem.rpi.edu>,<go4>,<TopSpin 3.5.6>,
+      <created by zg
+	started at 2022-11-11 17:37:56.794 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       00 31 F8 31 79 A9 DD 62 6E 9C C4 E6 86 96 08 AF
+       data hash MD5: 256K
+       65 AA 7D 9C 1B 7E 62 ED 81 EB 47 92 DD 86 2D 19>)
+(   2,<2022-11-11 17:39:49.865 -0500>,<monteg3>,<pharaoh.chem.rpi.edu>,<proc1d>,<TopSpin 3.5.6>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -23.30759 PHC1 = 324.9 SI = 11000 
+       data hash MD5: 11000
+       38 09 39 9B 3B 14 1F 38 4B DA 64 6D 83 A6 73 56>)
+(   3,<2022-11-11 17:40:03.852 -0500>,<monteg3>,<pharaoh.chem.rpi.edu>,<proc1d>,<TopSpin 3.5.6>,
+      <apk0 
+       data hash MD5: 11000
+       FB 16 D8 F1 3E A8 BD F4 24 D0 50 97 8F 15 ED A7>)
+(   4,<2022-11-30 09:17:52.021 -0500>,<monteg3>,<pharaoh.chem.rpi.edu>,<proc1d>,<TopSpin 3.5.6>,
+      <abs m ABSG = 5 
+       data hash MD5: 11000
+       2A E9 AC 62 3D 6D 90 56 45 2B 25 B6 B7 BB 95 02>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Pharaoh-600NMR-data/Nirma-19F_Mpro_1:1_20221111/19/pdata/1/auditp.txt
+(   5,<2026-01-27 17:11:28.105 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 0 PHC1 = 0 SI = 11000 
+       data hash MD5: 11000
+       D9 EC 3A 02 52 49 60 44 44 7B 64 F3 58 3B 44 19>)
+(   6,<2026-01-27 17:11:29.941 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <apk0 
+       data hash MD5: 11000
+       EB 83 F7 94 BB B8 18 B6 D0 CC 6C 0B D6 8E C3 A5>)
+(   7,<2026-01-27 17:11:55.234 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <pk fgphup PHC0 = 37.10545 PHC1 = -126.4 
+       data hash MD5: 11000
+       43 2F 16 71 42 65 CF 75 92 4D 93 3A 73 72 8E 1D>)
+(   8,<2026-01-27 17:12:04.584 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -76 ABSF1 = -70 
+       data hash MD5: 11000
+       8F 29 85 7E B0 BD 3E 7C 61 B3 5E 3F 70 1B 23 31>)
+(   9,<2026-01-27 17:12:06.523 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 111.9454 PHC1 = -126.4 SI = 11000 
+       data hash MD5: 11000
+       A3 7E 87 DC E8 5F DE 42 0F D7 B1 CA B0 20 FE D1>)
+(  10,<2026-01-27 17:12:08.364 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -76 ABSF1 = -70 
+       data hash MD5: 11000
+       E1 20 05 96 B2 79 6B 9D 5C 72 FE D6 C1 D7 9A 5F>)
+(  11,<2026-01-27 17:12:11.734 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -76 ABSF1 = -70 
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  12,<2026-01-27 17:12:33.672 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-27 17:12:24.490 -0500
+       DEFINE [-71.344;-72.611]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  13,<2026-01-27 17:12:33.673 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-27 17:12:31.698 -0500
+       DEFINE [-74.256;-74.499]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  14,<2026-01-28 17:18:17.798 -0500>,<ramelt2>,<valine-57.dynamic2.rpi.edu>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-28 17:17:19.011 -0500
+       DELETE [-71.344;-72.611]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  15,<2026-01-28 17:18:17.800 -0500>,<ramelt2>,<valine-57.dynamic2.rpi.edu>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-28 17:17:19.011 -0500
+       DELETE [-74.256;-74.499]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  16,<2026-01-28 17:18:17.801 -0500>,<ramelt2>,<valine-57.dynamic2.rpi.edu>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-28 17:17:44.123 -0500
+       DEFINE [-71.000;-73.000]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  17,<2026-01-28 17:18:17.802 -0500>,<ramelt2>,<valine-57.dynamic2.rpi.edu>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-28 17:18:02.064 -0500
+       DEFINE [-74.200;-74.500]
+       data hash MD5: 11000
+       8D 6A 8C D8 41 F2 F7 02 B7 86 77 C7 34 B3 4C DC>)
+(  18,<2026-01-29 10:49:05.998 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 111.9454 PHC1 = -126.4 SI = 11000 
+       data hash MD5: 11000
+       A3 7E 87 DC E8 5F DE 42 0F D7 B1 CA B0 20 FE D1>)
+(  19,<2026-01-29 10:49:07.566 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 11000
+       07 5E 49 CC 6F EB 99 55 2F FE 33 31 AE DE 37 8E>)
+(  20,<2026-01-29 10:49:09.439 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -76 ABSF1 = -70 
+       data hash MD5: 11000
+       41 76 3C D6 8C 71 7B 02 04 D4 ED 48 E4 8E 05 BE>)
+(  21,<2026-01-29 10:51:29.411 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-29 10:49:29.688 -0500
+       DEFINE [-71.000;-73.000]
+       data hash MD5: 11000
+       41 76 3C D6 8C 71 7B 02 04 D4 ED 48 E4 8E 05 BE>)
+(  22,<2026-01-29 10:51:29.413 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<dataserver>,<TopSpin 4.0.9>,
+      <INTEGRAL 2026-01-29 10:49:41.678 -0500
+       DEFINE [-74.200;-74.500]
+       data hash MD5: 11000
+       41 76 3C D6 8C 71 7B 02 04 D4 ED 48 E4 8E 05 BE>)
+##END=
+
+$$ hash MD5
+$$ 91 0B 16 94 05 F6 9E DD 75 E4 CE B9 B4 05 0F A5

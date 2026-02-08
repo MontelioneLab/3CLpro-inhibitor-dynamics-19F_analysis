@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.0.9
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= ramelt2
+$$ 2025-01-16 15:13:14.727 -0500  ramelt2@valine-90.dynamic2.rpi.edu
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12/2/pdata/1/assocs
+$$ process /opt/topspin4.0.9/prog/mod/dataserver
+##$MULTDISP= </Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12/1/pdata/1>
+##END=

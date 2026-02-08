@@ -1,0 +1,17 @@
+
+ Current data set:
+ Name =RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12   ExpNo =    31   ProcNo =     1
+ Disk  = /Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data
+ Baseline = 0    Noise = 0
+
+   #  SI_F1  row1  row2  row1(ppm)  row2(ppm)  abs. Int.    Integral    Mode
+      SI_F2  col1  col2  col1(ppm)  col2(ppm)
+
+  1     64    36    51   -0.05263   -0.28591  4.5092e+09 1.3761e+05   +
+       512   212   275  -71.82197  -72.06886
+  2     64    36    52   -0.04067   -0.28949  6.4537e+09 1.9695e+05   +
+       512   276   345  -72.07635  -72.34569
+  3     64    19    35    0.22011   -0.03589  4.0921e+09 1.2488e+05   +
+       512   275   346  -72.07136  -72.34818
+  4     64    16    35    0.26796   -0.03828  1.6723e+10 5.1035e+05   +
+       512   188   274  -71.72720  -72.06637

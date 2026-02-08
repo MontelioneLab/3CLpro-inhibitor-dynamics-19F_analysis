@@ -1,0 +1,74 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy/36/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-11-12T13:37:28.295-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2024-11-12T18:34:56.021-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 SI to 512>)
+(   3,<2024-11-12T18:34:59.451-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 SI to 64>)
+(   4,<2024-11-12T18:35:00.485-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 WDW to EM>)
+(   5,<2024-11-12T18:35:02.222-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 WDW to EM>)
+(   6,<2024-11-12T18:35:05.051-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 LB to 20.00>)
+(   7,<2024-11-12T18:35:16.024-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 20.00>)
+(   8,<2024-11-12T18:35:17.519-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 BC_mod to no>)
+(   9,<2024-11-12T18:35:23.885-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 NCOEF to 8>)
+(  10,<2024-11-12T18:35:26.274-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TDeff to 0>)
+(  11,<2024-11-12T18:35:28.572-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TDeff to 0>)
+(  12,<2024-11-12T19:28:14.244-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TDeff to 22>)
+(  13,<2024-11-12T19:28:18.160-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc2d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 0 PHC1 = 0 F1: TDeff = 22 SI = 64 ME_mod = 2 NCOEF = 8 WDW = 1 LB = 20 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       46 D5 F7 7F 52 C6 DB 60 38 EB C4 DF 03 AE F8 10>)
+(  14,<2024-11-12T19:28:37.612-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc2d>,<TopSpin 4.4.0>,
+      <pk2 fgphup F2: PHC0 = 79.275 PHC1 = 0
+       data hash MD5: 512 * 64
+       5B FA F9 82 90 C6 A2 33 C5 7A 8C D8 FE 29 DF DD>)
+(  15,<2024-11-12T19:33:44.083-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TDeff to 24>)
+(  16,<2024-11-12T19:33:47.052-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc2d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 79.275 PHC1 = 0 F1: TDeff = 24 SI = 64 ME_mod = 2 NCOEF = 8 WDW = 1 LB = 20 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       E6 BF EF B3 EB BE 62 05 A3 82 4B E1 01 C8 F4 A9>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data/RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12/36/pdata/1/auditp.txt
+(  17,<2025-03-11 12:35:03.042 -0400>,<ramelt2>,<valine-07.dynamic2.rpi.edu>,<proc2d>,<TopSpin 4.0.9>,
+      <abs2 F2: ABSG = 5 ABSF1 = -70.99371 ABSF2 = -73.00629
+       data hash MD5: 512 * 64
+       32 C9 39 C6 9B D0 82 70 CA E6 2C E6 CF C1 2E 0D>)
+(  18,<2025-03-11 12:35:25.565 -0400>,<ramelt2>,<valine-07.dynamic2.rpi.edu>,<proc2d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 79.275 PHC1 = 0 F1: TDeff = 24 SI = 64 ME_mod = 2 NCOEF = 8 WDW = 1 LB = 20 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       E6 BF EF B3 EB BE 62 05 A3 82 4B E1 01 C8 F4 A9>)
+(  19,<2025-03-11 12:35:25.599 -0400>,<ramelt2>,<valine-07.dynamic2.rpi.edu>,<proc2d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 79.275 PHC1 = 0 F1: TDeff = 24 SI = 64 ME_mod = 2 NCOEF = 8 WDW = 1 LB = 20 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       E6 BF EF B3 EB BE 62 05 A3 82 4B E1 01 C8 F4 A9>)
+(  20,<2025-03-11 12:35:32.934 -0400>,<ramelt2>,<valine-07.dynamic2.rpi.edu>,<proc2d>,<TopSpin 4.0.9>,
+      <abs2 F2: ABSG = 5 ABSF1 = -70.99371 ABSF2 = -73.00629
+       data hash MD5: 512 * 64
+       32 C9 39 C6 9B D0 82 70 CA E6 2C E6 CF C1 2E 0D>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Mohawk-600NMR-data/RGC_Nirmat-Mpro_2D-19F-EXSY_2024-11-12/36/pdata/1/auditp.txt
+(  21,<2026-02-03 11:26:17.999 -0500>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc2d>,<TopSpin 4.0.9>,
+      <pk1 fgphup F1: PHC0 = -1.3 PHC1 = 0
+       data hash MD5: 512 * 64
+       EA CC AF 12 0A EF D8 5D 8E CE 68 C0 5F 74 D5 55>)
+##END=
+
+$$ hash MD5
+$$ 71 EC 0B 4B 2D 93 26 64 43 EE 32 E8 F0 98 08 96

@@ -1,0 +1,6 @@
+# 2025-01-16 15:31:03 -0500  ramelt2@valine-90.dynamic2.rpi.edu
+# Result of interactive Integration
+# Number  low Field   high Field     Bias          Slope         Integral
+#          [PPM]       [PPM]
+     1      2.7455      2.7301     -0.0000E00     -0.0000E00      3.493246E11
+     2      2.5117      2.4986     -0.0000E00     -0.0000E00      3.560680E11

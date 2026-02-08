@@ -1,0 +1,15 @@
+Data set: /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Pharaoh-600NMR-data/Nirma-19F_500uM_C145A_Mpro_20230206/298/pdata/1/
+
+Fit type: Mixed Lorentzian and Gaussian
+
+Fit        Frequency             Width        Intensity       Area     %Lor.
+         ppm        Hz        ppm         Hz                           chisq
+
+  1                                                                  4.5e+15
+
+      -71.996 -40647.21    0.10488     59.213     12.909    232.455    100.00
+STD:    0.001      0.48    0.00334      1.884      0.230
+
+      -72.158 -40738.87    0.23345    131.799      3.333    133.576    100.00
+STD:    0.008      4.24    0.02082     11.755      0.138
+

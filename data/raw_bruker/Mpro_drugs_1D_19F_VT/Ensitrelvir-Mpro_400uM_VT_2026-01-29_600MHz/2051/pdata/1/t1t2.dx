@@ -1,0 +1,36 @@
+##TITLE= List of Points
+##JCAMPDX= 5.0
+##DATA TYPE= LINK
+##BLOCKS= 1	$$ is the number of fits or point lists
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= monteg3
+$$ 2026-01-30 11:05:47.150 -0500  monteg3@mohawk.biotech.rpi.edu
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/2051/pdata/1/t1t2.dx
+##XUNITS= sec
+##YUNITS= a.u.
+##MINX=   5.000000e-02
+##MAXX=   2.000000e+01
+##MINY=  -5.153115e-01
+##MAXY=   1.000000e+00
+##TITLE= Peak No. 3 at -99.685 ppm, t1/t2, I[0] =  9.683e-01, P = -1.489e+00, T =    2.141s
+##JCAMP-DX= 5.0
+##DATA TYPE= Relaxation Data
+$$
+##$FITFKT= t1/t2(  9.682830e-01,  -1.488663e+00,   2.141048e+00)
+$$
+##NPOINTS= 12
+##XYPOINTS= (XY..XY)
+  4.000000e+00,  6.978529e-01
+  5.000000e-02, -4.989844e-01
+  1.000000e-01, -5.153115e-01
+  2.500000e-01, -3.088518e-01
+  5.000000e-01, -1.789644e-01
+  1.000000e+00,  5.227894e-02
+  2.000000e+00,  4.020464e-01
+  3.000000e+00,  5.640276e-01
+  4.000000e+00,  7.594833e-01
+  8.000000e+00,  9.226362e-01
+  1.400000e+01,  9.627050e-01
+  2.000000e+01,  1.000000e+00
+##END= $$ End of List for Peak No. 3
+##END= $$ End of List of Points

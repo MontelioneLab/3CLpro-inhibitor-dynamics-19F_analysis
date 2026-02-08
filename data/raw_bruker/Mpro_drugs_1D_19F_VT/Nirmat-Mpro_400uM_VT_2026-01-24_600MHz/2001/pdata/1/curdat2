@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 4.4.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ 2026-01-24 08:36:02.745 -0500  monteg3@mohawk.biotech.rpi.edu
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_2026-01-23/21/pdata/1/curdat2
+$$ process /opt/topspin4.4.0/prog/mod/dataserver
+##$DATPATH2= </opt/nmrdata/data/monteg3>
+##$DU2= <>
+##$EXPNO2= 21
+##$NAME2= <ADF_TR_Nirmat400-Mpro400_2026-01-23>
+##$PROCNO2= 999
+##$TYPE= <>
+##$USER2= <>
+##END=

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2025-01-16T15:24:35">
+  <PeakList1D>
+    <PeakList1DHeader creator="ramelt2" date="2025-01-16T15:24:35" expNo="2" name="RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12" owner="" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data">
+      <PeakPickDetails>F1=2.757860ppm, F2=2.461128ppm, MI=0.05cm, MAXI=16.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="2.737908" intensity="0.06621573" type="0"/>
+    <Peak1D F1="2.623682" intensity="15.0" type="0"/>
+    <Peak1D F1="2.505546" intensity="0.06654289" type="0"/>
+  </PeakList1D>
+</PeakList>

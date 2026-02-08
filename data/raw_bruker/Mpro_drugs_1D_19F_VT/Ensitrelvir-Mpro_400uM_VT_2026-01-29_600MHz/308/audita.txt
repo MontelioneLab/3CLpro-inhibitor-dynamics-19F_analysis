@@ -1,0 +1,25 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/308/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-29T10:34:35.724-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=308 PROCNO=1>)
+(   2,<2026-01-29T16:01:17.809-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 TE to 310.5>)
+(   3,<2026-01-29T21:17:41.217+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   4,<2026-01-29T21:41:34.127+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID 'f1e21498-fd57-11f0-a1e0-0030d62e2a2f'
+       started at 2026-01-29 21:17:41.217 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-01-29 21:41:34.126 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 128K
+       F6 88 DF EC 17 ED 8E 3F 57 8B D2 13 55 C3 1E 2C>)
+##END=
+
+$$ hash MD5
+$$ F3 D5 9E FA BC C5 27 24 8E 7F 94 C6 21 C1 5F 49

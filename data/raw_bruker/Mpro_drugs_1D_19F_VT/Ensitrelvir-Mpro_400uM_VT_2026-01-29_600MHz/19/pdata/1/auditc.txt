@@ -1,0 +1,4 @@
+TITLE=19F - short 1D ~2.5 min
+d1=1 sec
+TE=298 on topspin (real T is 296.0K)
+y=0.9684x+7.3962 from 2026.01.24 MeOH calibrationTITLE_END

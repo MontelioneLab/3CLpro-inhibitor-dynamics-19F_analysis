@@ -1,0 +1,15 @@
+Data set: /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_2026-01-23/21/pdata/1/
+
+Fit type: Mixed Lorentzian and Gaussian
+
+Fit        Frequency             Width        Intensity       Area     %Lor.
+         ppm        Hz        ppm         Hz                           chisq
+
+  1                                                                  2.1e+17
+
+      -71.932 -40615.21    0.13202     74.543     13.250  11184.511    100.00
+STD:    0.000      0.07    0.00042      0.239      0.024
+
+      -72.161 -40744.21    0.17985    101.550      6.455   7422.324    100.00
+STD:    0.000      0.18    0.00104      0.586      0.020
+

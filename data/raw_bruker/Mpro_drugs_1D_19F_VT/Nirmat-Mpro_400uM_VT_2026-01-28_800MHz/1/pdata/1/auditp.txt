@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_VT_2026-01-28/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-28T14:30:57.951-0500>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-28T16:10:17.411-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K
+       fid double data hash MD5: 64K
+       0E 71 DA 73 23 A8 BE 6C BC 37 23 F0 F9 9D A3 79
+       data hash MD5: 64K
+       24 46 3E 3F 48 A5 40 1F 60 93 49 55 25 6E FD 16>)
+(   3,<2026-01-28T16:10:17.463-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K
+       data hash MD5: 64K
+       7F 7A 72 26 73 D7 82 AB 9A 12 F1 6E 2C 72 4C 8A>)
+(   4,<2026-01-28T16:10:17.657-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk
+       data hash MD5: 64K
+       4F 7B 59 84 7D F6 DC E3 3E 14 91 0B 3C 7E 5A E1>)
+(   5,<2026-01-28T16:10:17.712-0500>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <abs n ABSG = 5
+       data hash MD5: 64K
+       34 5D 7C 67 CF 8B 2E E7 34 9D FF 0E 44 0E FF DB>)
+(   6,<2026-01-28T17:48:51.103-0500>,<monteg3>,<hudson>,<audit>,<TopSpin 4.4.1>,
+      <user comment:
+       TITLE=400uM Mpro 400 uM Nirma
+       20 mM tris 100 mM NaCl 5 mM DTT 1 mM TCEP 2% DMSO 10% D2O
+       preparred 01.23.2026
+       also run experiment on mohawk 01.23.2026 and VT 01.24.2026 after MeOH calibrationTITLE_END
+       data hash MD5: 64K
+       34 5D 7C 67 CF 8B 2E E7 34 9D FF 0E 44 0E FF DB>)
+##END=
+
+$$ hash MD5
+$$ 35 87 30 EA 84 83 72 D1 1D B6 D5 D1 84 C4 D4 7F

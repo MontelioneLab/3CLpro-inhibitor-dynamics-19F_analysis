@@ -1,0 +1,6 @@
+F19
+rpar PROTONT1
+set vdlist
+setup for 19F
+d1=10 s
+T1s = 1.4, 1.8, and 1.2 sec

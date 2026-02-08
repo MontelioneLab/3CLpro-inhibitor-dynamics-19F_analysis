@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2026-02-01T15:43:04">
+  <PeakList1D>
+    <PeakList1DHeader creator="ramelt2" date="2026-02-01T15:43:04" expNo="2000" name="ADF_TR_Enselt400-Mpro400_VT_2026-01-29" owner="" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Mohawk-600NMR-data">
+      <PeakPickDetails>F1=-137.087448ppm, F2=-139.971008ppm, MI=7.61cm, MAXI=13.57cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="-137.588852" intensity="12.61262" type="0"/>
+    <Peak1D F1="-139.675232" intensity="8.164687" type="0"/>
+  </PeakList1D>
+</PeakList>
