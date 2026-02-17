@@ -17,4 +17,3 @@ This directory contains the standardized analysis suite for the variable-tempera
 
 ## Key Results
 - **Minor State Population ($p_B$):** ~40.5% at 298 K.
-- **Intrinsic Linewidths ($R_2$):** ~100–150 Hz, indicating significant conformational heterogeneity.
