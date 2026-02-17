@@ -1,0 +1,8 @@
+   Current data set:
+   NAME =	Nirma-19F_Mpro_0.25_20221111	EXPNO =	19	PROCNO = 1
+   DU   =	/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Pharaoh-600NMR-data
+
+   Number   Integrated Region     Integral
+     1    -71.000    -73.000         1.00000
+     2    -73.000    -74.000        -0.02502
+     3    -74.200    -74.500         4.22783

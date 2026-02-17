@@ -1,0 +1,12 @@
+#  Current data set:
+#  Name =RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12   ExpNo =    34   ProcNo =     1
+#  Disk  = /Users/ramelt2/Library/CloudStorage/Box-Box/box-Documents/Proteins/MPro/Nirmat-Mpro_buffer_19F_sat_2024-11-06/Mohawk-600NMR-data
+#  Baseline = 0    Noise = 0
+
+
+ Region          Integral Normalized Mode
+
+     1     5007300000.00       0.54    +
+     2     3598500000.00       0.39    +
+     3     3842600000.00       0.41    +
+     4     9327700000.00       1.00    +

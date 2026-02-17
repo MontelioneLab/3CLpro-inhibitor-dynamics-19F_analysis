@@ -1,0 +1,4 @@
+TITLE=19F - long 1D ~24 min
+d1=8 sec
+TE=305.3 is 303K
+y=0.9684x+7.3962 from 2026.01.24 MeOH calibrationTITLE_END

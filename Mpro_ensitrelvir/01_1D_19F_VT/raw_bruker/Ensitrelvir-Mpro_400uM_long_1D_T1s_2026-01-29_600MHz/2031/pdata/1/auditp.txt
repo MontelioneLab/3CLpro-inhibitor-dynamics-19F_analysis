@@ -1,0 +1,92 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/2032/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-29T20:16:06.641-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-29T20:18:33.177-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 70.72029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       8D DC 4A 44 41 88 92 52 DD 69 6E 85 02 13 CE 97>)
+(   3,<2026-01-29T20:19:06.061-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <pk fgphup PHC0 = 27.2 PHC1 = 0 
+       data hash MD5: 64K
+       52 8B 31 F1 2A A4 5B A1 01 46 41 37 4F B0 2F 45>)
+(   4,<2026-01-29T20:19:42.175-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 ABSF1 to -116.00000>)
+(   5,<2026-01-29T20:19:51.728-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 ABSF2 to -126.00000>)
+(   6,<2026-01-29T20:19:54.311-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf n ABSG = 5 ABSF2 = -126 ABSF1 = -116 
+       data hash MD5: 64K
+       3E 3F 6E 8C 9D F6 32 45 EE 6C 89 1D 62 7E BF 29>)
+(   7,<2026-01-29T20:23:02.406-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       CF A7 5B AF B6 A4 D2 84 A0 37 29 67 F5 61 A8 FD>)
+(   8,<2026-01-29T20:23:02.459-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       8B BC 4B E3 05 A1 46 69 6C FF 1C 13 56 69 5A 57>)
+(   9,<2026-01-29T20:24:43.763-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       19 70 C1 9E 9A 0F A7 C2 CF 83 50 80 12 E6 89 65>)
+(  10,<2026-01-29T20:24:43.808-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       48 62 CE 2B EC 3A 6A 43 9D 0E A4 ED C8 2F 13 2A>)
+(  11,<2026-01-29T20:26:25.928-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       B6 59 22 35 79 96 20 E1 BE EC DD B7 A7 B5 91 1E>)
+(  12,<2026-01-29T20:26:25.980-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       0C 5D 98 A3 AF 4B 5E 4A DB D1 44 98 3C E3 EE 3C>)
+(  13,<2026-01-29T20:28:07.403-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       11 73 40 E4 59 B8 06 56 66 8F 5A 10 22 0F 8C 60>)
+(  14,<2026-01-29T20:28:07.454-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       25 F9 27 1D 03 2B 78 D8 A7 FA 87 89 A9 25 21 BC>)
+(  15,<2026-01-29T20:29:49.908-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       FB 7C 84 77 60 FF 57 04 ED C9 82 EB 19 1F B6 B2>)
+(  16,<2026-01-29T20:29:49.961-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       07 F9 78 82 00 BA E2 EE 35 9D A2 BA A7 5D EB 93>)
+(  17,<2026-01-29T20:31:31.884-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       D2 56 FC EA 67 3D 45 AA 14 96 AA E1 78 BE BB F9>)
+(  18,<2026-01-29T20:31:31.935-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       10 BE E2 E9 24 8B CD F5 AC F2 A7 97 E6 4E 35 AD>)
+(  19,<2026-01-29T20:33:14.745-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       trf BC_mod = 2 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PH_mod = 1 PHC0 = 97.92029 PHC1 = -131.2 SI = 64K 
+       data hash MD5: 64K
+       B6 EF EF 84 D1 19 C2 3A 72 0B 4C 4D 0B 16 4F 26>)
+(  20,<2026-01-29T20:33:14.807-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <absf ABSG = 5 ABSF2 = -122.5489 ABSF1 = -117.4373 
+       data hash MD5: 64K
+       1A 67 2E FB 72 1D DC 1B 40 7F A4 DA 7D 62 F8 5D>)
+##END=
+
+$$ hash MD5
+$$ DA 85 66 88 EB A7 C2 4C 6C 69 EB F8 84 BE 29 15

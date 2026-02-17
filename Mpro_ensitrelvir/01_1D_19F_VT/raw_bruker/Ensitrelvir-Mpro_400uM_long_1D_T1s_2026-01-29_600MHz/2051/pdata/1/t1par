@@ -1,0 +1,46 @@
+##TITLE= Parameter file, TopSpin 4.4.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 223	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ 2026-01-30 11:06:07.081 -0500  monteg3@mohawk.biotech.rpi.edu
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/2051/pdata/1/t1par
+$$ process /opt/topspin4.4.0/prog/mod/dataserver
+##$BIGDEL= 100
+##$CALCDN= yes
+##$COMPNO= 1
+##$CONV= 1e-05
+##$CURSOR= 2
+##$DRIFT= 5
+##$EDGUESS= 0
+##$EDPARM= 0
+##$FCTTYPE= 0
+##$FIDNUMB= 1
+##$FITT1T2= 0
+##$FITTYPE= 1
+##$GAMM= 10000
+##$GRADIEN= 1
+##$GUESSES= (0..23)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$INC= 1
+##$INTRNG= 1
+##$LISTINC= 0.001
+##$LISTTYP= <vdlist>
+##$LITDEL= 10
+##$MAXPNTS= 12
+##$NUMPNTS= 12
+##$NUMTERM= 3
+##$PARM= (0..11)
+0.968283010009627 -1.48866333857726 2.14104755772921 0 0 0 0 0 0 0 0 0
+##$PDTYP= <pd>
+##$REGIONS= 3
+##$SHOWINT= no
+##$SHOWPP= yes
+##$SHOWTXT= 1
+##$START= 1
+##$X_END= 20
+##$X_START= 0.05
+##$Y_END= 8.715098e+10
+##$Y_START= -4.49099e+10
+##END=

@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_VT_2026-01-28/19/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-28T14:31:58.357-0500>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc EXPNO=19 PROCNO=1>)
+(   2,<2026-01-28T21:18:56.276+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(   3,<2026-01-28T21:24:12.868+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'f4340752-fc8e-11f0-ad5a-0030d62dd919'
+       started at 2026-01-28 21:18:56.276 +0000, POWCHK enabled, PULCHK disabled,
+       terminated by command 'stop' at 2026-01-28 21:24:12.867 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       ED C5 5B EE 6D 8B 2C AB 9F 76 59 ED F9 25 1B C6>)
+##END=
+
+$$ hash MD5
+$$ EB 72 97 72 8B 78 14 D2 48 B4 32 29 E8 38 45 C6

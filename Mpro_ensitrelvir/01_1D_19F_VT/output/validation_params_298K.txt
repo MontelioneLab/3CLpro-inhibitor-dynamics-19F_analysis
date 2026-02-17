@@ -1,0 +1,9 @@
+ENSITRELVIR HIGH-RES VALIDATION PARAMETERS (298 K)
+--------------------------------------------------
+Source Archive: vt_global_fit.npz
+Validated Temp: 298.0 K
+Population pB:  0.3892 (38.9%)
+Equilibrium K:  0.6371
+Fitted wA:      138.96 Hz
+Fitted wB:      150.00 Hz
+--------------------------------------------------

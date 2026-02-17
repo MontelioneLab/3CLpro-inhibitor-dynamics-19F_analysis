@@ -1,0 +1,5 @@
+
+Current Data Parameters
+NAME     RGC_Nirmat-Mpro_in_buffer_2D-19F-noesy_2024-11-12              
+EXPNO                32              
+PROCNO                1              

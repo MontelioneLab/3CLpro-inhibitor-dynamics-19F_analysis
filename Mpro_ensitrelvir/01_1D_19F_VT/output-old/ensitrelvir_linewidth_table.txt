@@ -1,0 +1,20 @@
+Ensitrelvir: Fitted Linewidths (Middle Peak)
+Note: In Slow Exchange, Fit Width ~= Natural Width
+============================================================
+ Temp (K) Population B Width A (Hz) Width B (Hz) Separation (Hz)
+      283        42.6%        250.0        250.0            1195
+      288        38.4%        202.5        250.0            1211
+      293        35.1%        170.0        250.0            1196
+      298        35.6%        134.8        200.7            1194
+      303        36.6%        143.5        194.1            1190
+      308        35.3%        126.2        162.5            1192
+      313        36.5%        118.3        133.1            1209
+============================================================
+
+COMPARISON CONTEXT (Nirmatrelvir Data):
+----------------------------------------
+Nirmatrelvir 'Natural' Width (R2):  ~50 Hz
+Ensitrelvir 'Natural' Width (Fit):    ~150-250 Hz
+----------------------------------------
+CONCLUSION: Ensitrelvir peaks are indeed significantly BROADER
+than the Nirmatrelvir peaks.

@@ -1,0 +1,15 @@
+=== EXSY SIMULATION PARAMETERS ===
+Exchange Rate (k_ex) : 106.0 s^-1
+Population B (pB)    : 44.0 %
+Longitudinal T1      : 1.60 s
+k_AB / k_BA          : 46.64 / 59.36 s^-1
+-----------------------------------
+Width A (effective)  : 53.0 Hz
+Width B (effective)  : 97.0 Hz
+Frequency Separation : 134.0 Hz
+-----------------------------------
+Mixing Time (ms) | Peak Ratios (Height-based)
+              10 | Diag B/A: 0.209, Cross/A: 0.221
+              30 | Diag B/A: 0.188, Cross/A: 0.398
+             100 | Diag B/A: 0.184, Cross/A: 0.429
+             200 | Diag B/A: 0.184, Cross/A: 0.429

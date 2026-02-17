@@ -1,0 +1,79 @@
+Dataset :
+ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/2051/pdata/1
+AREA fit :
+ I[t]=I[0]+P*exp(-t/T1)
+
+12 points for Integral 1,  Integral Region from -118.442 to -121.260 ppm
+Results     Comp. 1    
+
+I[0]  =    9.492e-01
+P     =   -1.687e+00
+T1    =       1.483s
+SD    =    4.816e-02
+
+    tau    ppm     integral    intensity
+
+    4.000s  -120.034   6.7442e+10   3.3302e+08
+   50.000m  -120.031  -6.2151e+10     eliminated
+  100.000m  -120.031  -5.9293e+10     eliminated
+  250.000m  -120.031  -4.7824e+10     eliminated
+  500.000m  -120.031  -2.1668e+10     eliminated
+    1.000s  -120.031   1.0772e+10     eliminated
+    2.000s  -120.041   5.2357e+10   2.1408e+08
+    3.000s  -120.031   6.1485e+10     eliminated
+    4.000s  -120.031   8.2541e+10     eliminated
+    8.000s  -120.031    8.935e+10     eliminated
+   14.000s  -120.013   9.2866e+10   4.1064e+08
+   20.000s  -120.031   8.6766e+10     eliminated
+
+
+
+12 points for Integral 2,  Integral Region from -136.330 to -140.647 ppm
+Results     Comp. 1    
+
+I[0]  =    1.001e+00
+P     =   -1.445e+00
+T1    =       2.263s
+SD    =    2.825e-02
+
+    tau    ppm     integral    intensity
+
+    4.000s  -137.531   8.6244e+10   2.9512e+08
+   50.000m  -137.530  -4.9655e+10     eliminated
+  100.000m  -137.544  -4.0043e+10  -2.2502e+08
+  250.000m  -137.526  -2.6931e+10  -1.2148e+08
+  500.000m  -137.544  -1.3355e+10  -1.1492e+08
+    1.000s  -137.530   5.2504e+09     eliminated
+    2.000s  -137.530   4.0077e+10     eliminated
+    3.000s  -137.530   6.5617e+10     eliminated
+    4.000s  -137.530   7.9783e+10     eliminated
+    8.000s  -137.530   1.0339e+11     eliminated
+   14.000s  -137.519   1.0615e+11   3.2191e+08
+   20.000s  -137.530   1.0743e+11     eliminated
+
+
+
+12 points for Integral 3,  Integral Region from -141.106 to -143.808 ppm
+Results     Comp. 1    
+
+I[0]  =    9.683e-01
+P     =   -1.489e+00
+T1    =       2.141s
+SD    =    3.245e-02
+
+    tau    ppm     integral    intensity
+
+    4.000s  -141.779   6.0819e+10   2.3113e+08
+   50.000m  -141.776  -4.3487e+10     eliminated
+  100.000m  -141.776   -4.491e+10     eliminated
+  250.000m  -141.776  -2.6917e+10     eliminated
+  500.000m  -141.776  -1.5597e+10     eliminated
+    1.000s  -141.776   4.5562e+09     eliminated
+    2.000s  -141.793   3.5039e+10   1.6334e+08
+    3.000s  -141.776   4.9156e+10     eliminated
+    4.000s  -141.776    6.619e+10     eliminated
+    8.000s  -141.776   8.0409e+10     eliminated
+   14.000s  -141.776   8.3901e+10     eliminated
+   20.000s  -141.776   8.7151e+10     eliminated
+
+

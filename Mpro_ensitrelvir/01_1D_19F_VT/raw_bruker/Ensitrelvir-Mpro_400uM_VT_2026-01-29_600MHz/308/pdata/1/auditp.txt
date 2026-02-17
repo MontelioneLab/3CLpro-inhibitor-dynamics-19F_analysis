@@ -1,0 +1,159 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/308/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-29T10:34:35.723-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-29T16:25:19.106-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       2A CE 26 DB 2F 9D F0 86 5A 0C 66 7D 48 AA AC 77>)
+(   3,<2026-01-29T16:25:25.023-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 50.00>)
+(   4,<2026-01-29T16:25:28.242-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       04 85 52 FA 4B 15 B3 31 71 0E 2B D2 12 C3 CA 1A>)
+(   5,<2026-01-29T16:28:21.517-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       13 51 76 58 1B 42 5D 49 76 AD B4 A6 79 4F 93 4C>)
+(   6,<2026-01-29T16:32:06.034-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       29 DF 6C 6D DF 68 86 63 FC 68 DB 62 36 60 47 4D>)
+(   7,<2026-01-29T16:37:17.567-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       CC A4 0B 2A FD 60 CA FB 97 39 98 C3 52 7D 0F 21>)
+(   8,<2026-01-29T16:41:35.844-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 3.515932 PHC1 = -18 SI = 512K 
+       data hash MD5: 512K
+       E9 8C AB 02 DB A2 AD 75 9B E1 F4 10 0D 06 58 1A>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir/Mohawk-600NMR-data/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/308/pdata/1/auditp.txt
+(   9,<2026-01-30 15:25:28.058 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 184 PHC1 = -326.8 SI = 512K 
+       data hash MD5: 512K
+       A9 A4 72 6D 6D E9 AD 0A 63 A9 9B 2D 0C 9F 24 5F>)
+(  10,<2026-01-30 15:25:30.122 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 512K
+       71 8C 3F EA 67 96 13 FE 86 9C 7F C9 FA CB 7F D6>)
+(  11,<2026-01-30 15:25:35.122 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       72 30 13 2B AC 13 2C 42 1A A7 FB 23 F4 FF 43 33>)
+(  12,<2026-01-30 15:25:37.263 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       81 86 CE CB 6C F0 65 3A 34 7C C4 A1 38 55 C6 2C>)
+(  13,<2026-01-30 15:25:38.075 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       BA E4 6D C3 DF B2 74 FB 80 3C 4F 9C DD 81 F8 8E>)
+(  14,<2026-01-30 15:25:38.745 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       EF DF 5C DB 79 DB AE 30 F2 21 66 0C 1E 52 97 F3>)
+(  15,<2026-01-30 15:25:39.363 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       9A 24 D8 9B 70 8B B9 53 31 0C 9C D9 42 85 B6 B5>)
+(  16,<2026-01-30 15:25:39.895 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       90 E7 99 00 E7 13 70 1F 0C CB 6D AC 28 0E BD BC>)
+(  17,<2026-01-30 15:25:41.573 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 512K
+       BC D4 FF AA 3B 4D 2F DA F1 7F E3 E8 0C AA 9C F0>)
+(  18,<2026-01-30 15:25:43.819 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       70 27 6D B7 C1 12 3F 88 49 13 5A 47 65 DE 9D 97>)
+(  19,<2026-01-30 15:25:44.695 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       FE 12 9C E8 62 54 16 48 D3 1D A9 BF 1E 23 2E 2A>)
+(  20,<2026-01-30 15:25:45.515 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       E5 74 DB A6 CE 8D 34 31 81 10 EB 65 1B 08 6A 7F>)
+(  21,<2026-01-30 15:25:48.506 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 512K
+       F3 D6 FE 78 E4 B0 B5 18 07 3C 90 F8 BF B1 2A B0>)
+(  22,<2026-01-30 15:25:50.425 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       6E 2C D5 11 5E F3 4C B6 8B 1E 00 70 55 E9 14 2D>)
+(  23,<2026-01-30 15:25:51.868 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 512K
+       8F 55 86 A7 B7 3D 08 E2 6E FE BA AF 92 FB C2 C5>)
+(  24,<2026-01-30 16:10:29.302 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 50 FT_mod = 6 PKNL = 1 PHC0 = 184 PHC1 = -326.8 SI = 256K 
+       data hash MD5: 256K
+       52 63 65 A0 58 1A E7 8D C6 B7 66 6D DC 35 9C 78>)
+(  25,<2026-01-30 16:10:30.864 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 256K
+       15 A4 52 1D 00 B1 E8 03 5F 08 10 27 36 98 66 37>)
+(  26,<2026-01-30 16:10:32.827 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 256K
+       DD 06 EA 2D C7 D4 8B DE 9A 24 5A 86 1B F5 1E 5F>)
+(  27,<2026-01-30 16:10:36.287 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       26 EB 44 72 9B E5 05 26 E5 82 5C 6A 10 CE BF 88>)
+(  28,<2026-01-30 16:10:37.153 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       EA 75 3B 5D F7 CF B9 C4 31 61 09 D8 F6 68 52 0D>)
+(  29,<2026-01-30 16:10:37.803 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       99 CF 32 DF C9 9A 4C 43 88 BA 25 26 3B CB 94 2A>)
+(  30,<2026-01-30 16:10:38.184 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       51 0E FE C3 71 10 FA D7 AC 7E E9 3A 20 92 1C C7>)
+(  31,<2026-01-30 16:10:38.506 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       CC 82 EE 3C 7C 73 60 74 DF 23 72 D1 71 C4 E9 44>)
+(  32,<2026-01-30 16:10:38.801 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       D8 42 6E 41 1F A6 12 62 42 5B 1D 98 BF 39 74 91>)
+(  33,<2026-01-30 16:10:39.105 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       B1 D6 44 A9 CB AF AE 86 5C EA 44 60 99 52 F8 B7>)
+(  34,<2026-01-30 16:10:39.442 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       4B 7C E5 5F 08 A7 2C A0 35 EC DE 48 5D 25 8C 88>)
+(  35,<2026-01-30 16:10:42.226 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 256K
+       A2 9C 29 26 51 51 C1 25 9B CF 9D B5 48 B3 AD 91>)
+(  36,<2026-01-30 16:10:50.456 -0500>,<ramelt2>,<valine-59.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <absf 5 ABSG = 5 ABSF2 = -150 ABSF1 = -100 
+       data hash MD5: 256K
+       98 ED 91 EE 3C 8E 84 1C DF 06 1E D3 A2 4A 02 6F>)
+##END=
+
+$$ hash MD5
+$$ B1 24 E1 85 BD 76 9A 2C 70 F5 DC FE C2 8A 29 92

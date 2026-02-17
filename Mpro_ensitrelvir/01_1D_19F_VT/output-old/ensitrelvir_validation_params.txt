@@ -1,0 +1,7 @@
+=== ENSITRELVIR LONG 1D VALIDATION ===
+Data File      : spec_298_long_LB20.dat
+Population B   : 40.50 % (LOCKED)
+Width A (corr) : 132.4 Hz
+Width B (corr) : 120.0 Hz
+Separation     : 1182.80 Hz
+Fitting Slope  : -0.000016

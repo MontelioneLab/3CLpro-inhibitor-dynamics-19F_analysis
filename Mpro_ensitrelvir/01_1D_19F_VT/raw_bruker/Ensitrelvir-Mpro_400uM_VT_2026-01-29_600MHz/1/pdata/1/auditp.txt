@@ -1,0 +1,28 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Enselt400-Mpro400_VT_2026-01-29/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-29T09:52:18.512-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-01-29T11:56:36.468-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -11.19333 PHC1 = 2.013696 SI = 64K 
+       data hash MD5: 64K
+       FC DB 05 CF 1E 9B EA D5 BA BF 57 1A 71 E6 B5 BF>)
+(   3,<2026-01-29T15:36:08.598-0500>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=20 mM tris 100 mM NaCl 5 mM DTT 1 mM TCEP 2% dmso 10 % D2O pH 7.4
+       400 uM Mpro 400 uM enseltrevir
+       proton
+       position 12
+       100% MeOH temp cal done on 01.24.2026
+       
+       sample in position #12 (01.29.2026 ADF)TITLE_END
+       data hash MD5: 64K
+       FC DB 05 CF 1E 9B EA D5 BA BF 57 1A 71 E6 B5 BF>)
+##END=
+
+$$ hash MD5
+$$ 95 A0 91 6B 5F 35 B2 F5 55 2F 41 9C D3 C1 55 52

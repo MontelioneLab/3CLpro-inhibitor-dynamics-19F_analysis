@@ -1,0 +1,5 @@
+TITLE=20 mM tris 100 mM NaCl 5 mM DTT 1 mM TCEP 2% dmso 10 % D2O pH 7.4
+400 uM Mpro 400 uM Nirma
+proton
+position 12
+100% MeOH temp cal done this morningTITLE_END

@@ -1,0 +1,29 @@
+Dataset :
+ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_2026-01-23/50/pdata/1
+AREA fit :
+ I[t]=I[0]+P*exp(-t/T1)
+
+12 points for Integral 2,  Integral Region from -72.108 to -72.208 ppm
+Results     Comp. 1    
+
+I[0]  =    9.874e-01
+P     =   -1.871e+00
+T1    =       1.573s
+SD    =    1.756e-02
+
+    tau    ppm     integral    intensity
+
+    4.000s   -72.159   1.4236e+10   1.5129e+08
+   50.000m   -72.163  -1.3332e+10   -1.408e+08
+  100.000m   -72.156  -1.2845e+10  -1.3816e+08
+  250.000m   -72.158  -1.0941e+10     eliminated
+  500.000m   -72.158  -6.2373e+09     eliminated
+    1.000s   -72.158   6.3684e+07     eliminated
+    2.000s   -72.158   7.9338e+09     eliminated
+    3.000s   -72.156   1.1951e+10     1.24e+08
+    4.000s   -72.158   1.3767e+10     eliminated
+    8.000s   -72.158   1.6208e+10     eliminated
+   14.000s   -72.159   1.6765e+10   1.7868e+08
+   20.000s   -72.154   1.6509e+10   1.7553e+08
+
+
