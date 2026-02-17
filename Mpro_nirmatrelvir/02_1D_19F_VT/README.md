@@ -17,11 +17,12 @@ This directory contains the computational pipeline for analyzing 1D 19F NMR line
 
 To ensure data consistency and proper error propagation, execute scripts in the following order:
 
-1. **`python scripts/02_global_fit.py`**: Performs simultaneous thermodynamic fit of all spectra.
-2. **`python scripts/03_plot_VT_lineshapes.py`**: Produces a stacked visual report of experimental data vs. global fit.
-3. **`python scripts/04_error_analysis.py`**: Calculates scatter-based errors and generates kinetic/thermo reports.
-4. **`python scripts/05_vanthoff_analysis.py`**: Generates van't Hoff plot for conformational equilibrium.
-5. **`python scripts/06_eyring_analysis.py`**: Generates Eyring plot with 95% CI bands.
+1. **`python scripts/01_bruker_ascii_to_dat.py`**: convert Bruker Topspin exported spectra to dat file.
+2. **`python scripts/02_global_fit.py`**: Performs simultaneous thermodynamic fit of all spectra.
+3. **`python scripts/03_plot_VT_lineshapes.py`**: Produces a stacked visual report of experimental data vs. global fit.
+4. **`python scripts/04_error_analysis.py`**: Calculates scatter-based errors and generates kinetic/thermo reports.
+5. **`python scripts/05_vanthoff_analysis.py`**: Generates van't Hoff plot for conformational equilibrium.
+6. **`python scripts/06_eyring_analysis.py`**: Generates Eyring plot with 95% CI bands.
 
 ---
 
