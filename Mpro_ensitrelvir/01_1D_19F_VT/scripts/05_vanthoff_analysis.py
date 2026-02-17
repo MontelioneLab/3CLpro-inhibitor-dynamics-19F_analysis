@@ -78,7 +78,6 @@ with open(output_path, "w") as f:
 # ============================================================
 # 4. VAN'T HOFF PLOT WITH 95% CI BAND
 # ============================================================
-# Smooth line for plotting - FIXED: Using T_vals instead of T_filtered
 T_line = np.linspace(min(T_vals) - 5, max(T_vals) + 5, 300)
 x_line = 1.0 / T_line
 y_line = slope * x_line + intercept
@@ -86,23 +85,28 @@ y_line = slope * x_line + intercept
 # CI band calculation
 band = t_val * np.sqrt(s_sq * (1.0/N + (x_line - x_mean)**2 / Sxx))
 
-fig, ax = plt.subplots(figsize=(6, 5), dpi=150)
-ax.scatter(1000.0/T_vals, y, color='black', zorder=3, label='Data')
+# Use a slightly wider figure to accommodate the legend on the right
+fig, ax = plt.subplots(figsize=(7, 5), dpi=150)
+
+# Plot elements with blue dots and black outline
+ax.scatter(1000.0/T_vals, y, color='blue', edgecolor='black', 
+           linewidth=0.5, s=40, zorder=3, label='600 MHz Data')
 ax.plot(1000.0/T_line, y_line, color='black', lw=1.5, label='Global Fit')
-ax.fill_between(1000.0/T_line, y_line - band, y_line + band, color='#dddddd', alpha=0.6, label='95% CI')
+ax.fill_between(1000.0/T_line, y_line - band, y_line + band, 
+                color='#dddddd', alpha=0.6, label='95% CI')
 
-ax.set_xlabel("1000 / T (K$^{-1}$)")
-ax.set_ylabel("ln K")
-ax.legend(frameon=False)
+# Labels and Formatting
+ax.set_xlabel("1000 / T (K$^{-1}$)", fontsize=10)
+ax.set_ylabel("ln K", fontsize=10)
 
-# Add Thermo Text Box
-text = (f"ΔH = {dH:.2f} ± {sigma_dH:.2f} kcal/mol\n"
-        f"ΔS = {dS*1000:.1f} ± {sigma_dS*1000:.1f} cal/mol/K\n"
-        f"ΔG(298 K) = {dG_298:.2f} ± {sigma_dG:.2f} kcal/mol\n"
-        f"R² = {r2:.3f}")
-ax.text(0.05, 0.05, text, transform=ax.transAxes, verticalalignment='bottom', fontsize=9)
+# Move legend outside to the right
+ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', frameon=False, fontsize=9)
+
+# Remove the inset text box as requested
+# (Thermodynamic parameters are now only in thermo_results.txt)
 
 plt.tight_layout()
-plt.savefig(os.path.join(FIGURE_DIR, "ensitrelvir_vanthoff_plot.png"))
+plt.savefig(os.path.join(FIGURE_DIR, "vanthoff_plot.png"), bbox_inches='tight')
 
-print(f"Analysis complete. Results: {output_path}")
+print(f"Standardized Van't Hoff plot (Nirmatrelvir style) saved to: {FIGURE_DIR}")
+# ============================================================

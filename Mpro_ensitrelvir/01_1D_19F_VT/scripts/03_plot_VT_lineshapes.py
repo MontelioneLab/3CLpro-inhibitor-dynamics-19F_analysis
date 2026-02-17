@@ -100,5 +100,5 @@ for p_idx in range(3):
 
 plt.tight_layout()
 os.makedirs(FIGURE_DIR, exist_ok=True)
-plt.savefig(os.path.join(FIGURE_DIR, "ensitrelvir_VT_lineshapes.png"), dpi=300)
+plt.savefig(os.path.join(FIGURE_DIR, "VT_lineshapes_fits.png"), dpi=300)
 plt.show()

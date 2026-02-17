@@ -18,13 +18,13 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(FIGURE_DIR, exist_ok=True)
 
 HIGH_SN_FILE = os.path.join(DATA_DIR, "spec_298_long_LB20.dat")
-TXT_OUTPUT = os.path.join(OUTPUT_DIR, "ensitrelvir_validation_params.txt")
-FIG_OUTPUT = os.path.join(FIGURE_DIR, "Ensitrelvir_Middle_Validation.png")
+TXT_OUTPUT = os.path.join(OUTPUT_DIR, "high_res_validation_params.txt")
+FIG_OUTPUT = os.path.join(FIGURE_DIR, "High_res_validation_plot.png")
 
 MIDDLE_PEAK_CENTER = -5000.0
 WINDOW_HALF_WIDTH = 2000.0
 
-# CONSTANTS (Your original hard-coded parameters for pB=40.5%)
+# CONSTANTS (Your original hard-coded parameters for pB=40.0%)
 LB_VT = 50.0   
 LB_NEW = 20.0  
 LB_DIFF = LB_VT - LB_NEW # 30 Hz sharpening correction
@@ -109,4 +109,6 @@ if freq is not None:
     ax_res.axhline(0, color='k', ls=':', alpha=0.5)
     ax_res.set_xlabel("Frequency (Hz)"); ax_res.set_ylabel("Resid."); ax_res.set_xlim(ax.get_xlim()) 
     
-    plt.tight_layout(); plt.show()
+    plt.tight_layout(); 
+    plt.savefig(FIG_OUTPUT, dpi=300)
+    print(f"Validation plot successfully saved to: {FIG_OUTPUT}")
