@@ -9,7 +9,7 @@ import os
 # Path logic for GitHub structure
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-DATA_DIR = os.path.join(PROJECT_ROOT, "processed_ascii", "C145A_nirmat_298K_600MHz")
+DATA_DIR = os.path.join(PROJECT_ROOT, "processed_ascii", "C145A_nirmat_298K_LB5_600MHz")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output" )
 FIGURE_DIR = os.path.join(PROJECT_ROOT, "figures")
 
@@ -23,8 +23,12 @@ TXT_OUTPUT = os.path.join(OUTPUT_DIR, 'C145A_fit_params.txt')
 FIG_OUTPUT = os.path.join(FIGURE_DIR, 'C145A_line-shape_fit.png')
 
 # CONSTANTS FROM WT FIT
-WT_WIDTH_A = 49.7
-WT_WIDTH_B = 88.9
+# Intrinsic LW without LB. At 600 MHz and 298K, LWA = 33.3 Hz. LWB = 77.3 Hz.
+# The C145A-NVM data was processed with LB=5.
+#WT_WIDTH_A = 49.7
+#WT_WIDTH_B = 88.9
+WT_WIDTH_A = 38.3
+WT_WIDTH_B = 82.3
 
 # ============================================================
 # 2. PHYSICS MODEL (2-Site Exchange)
