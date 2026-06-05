@@ -1,0 +1,12 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T16:31:59.832-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+##END=
+
+$$ hash MD5
+$$ C8 ED 3A 73 FE 02 86 D6 E3 CF 11 EE 7C 03 43 6E

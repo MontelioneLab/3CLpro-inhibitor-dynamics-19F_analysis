@@ -1,0 +1,79 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/1298/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-09T13:15:45.161-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-09T17:40:36.217-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 340.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       79 7A 8E 62 22 26 65 8D 55 8B B4 71 B7 2D 54 44
+       data hash MD5: 64K
+       C4 BD 9C 06 2E EC 51 1B 6A 90 58 29 1C E2 03 97>)
+(   3,<2026-05-09T17:43:10.483-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 LB to 10.00>)
+(   4,<2026-05-09T17:43:11.513-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 340.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       79 7A 8E 62 22 26 65 8D 55 8B B4 71 B7 2D 54 44
+       data hash MD5: 64K
+       9F 30 4C BB FE 57 44 C1 1A 21 72 A6 73 04 76 AA>)
+(   5,<2026-05-09T17:44:48.898-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 340.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       35 C0 BC 9E 05 BE EC 82 BE 34 84 FE C5 C6 FD 9A
+       data hash MD5: 64K
+       8F 45 80 0A 51 1E F5 C7 1D C3 20 6C C6 DA 2F AD>)
+(   6,<2026-05-09T17:45:45.999-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 340.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       A9 F5 E0 9B 97 A9 0E 0E 99 2A 87 8C D4 0A 6B C9
+       data hash MD5: 64K
+       D6 17 A6 F2 90 3C 1E 8A 94 5E 6E 28 B0 7F 3E 58>)
+(   7,<2026-05-09T17:46:53.910-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 340.24 PHC1 = 0 SI = 64K
+       fid double data hash MD5: 32K
+       3E F2 59 15 07 FB D4 32 4A AE 01 32 DA 09 EB 72
+       data hash MD5: 64K
+       77 DA D9 26 8A E6 ED 50 D2 A4 E2 9C 10 5E CD C4>)
+(   8,<2026-05-09T17:46:56.418-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk0
+       data hash MD5: 64K
+       A4 10 87 08 76 07 5D 7A C7 C5 66 72 F2 41 F9 04>)
+(   9,<2026-05-09T17:46:58.347-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <abs n ABSG = 5
+       data hash MD5: 64K
+       81 41 0D 23 00 BF 60 50 BD 83 F2 D9 71 E9 B2 AE>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Hudson-800-EDTA-data/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/1298/pdata/1/auditp.txt
+(  10,<2026-05-11 18:38:41.329 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 342.26 PHC1 = 0 SI = 64K 
+       data hash MD5: 64K
+       25 75 F7 32 9E 0C A5 C7 69 3E 1A 86 27 E2 56 33>)
+(  11,<2026-05-11 18:38:41.400 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       BC 9F 36 D8 3E B2 7D 3E 5D 09 A7 8C 82 E8 B9 71>)
+(  12,<2026-05-11 18:38:41.597 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -4 ABSF1 = 4 
+       data hash MD5: 64K
+       18 FB 0B 1D 06 2B 4D 46 24 E4 AB 78 B2 1E 09 5E>)
+(  13,<2026-05-11 18:38:41.766 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -3 ABSF1 = 3 
+       data hash MD5: 64K
+       7A B1 6E 63 51 5E 5B 7C 75 5B 38 DD 0A B6 0D 7F>)
+(  14,<2026-05-11 18:38:41.919 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -2 ABSF1 = 2 
+       data hash MD5: 64K
+       E7 86 22 6D 5B 3F 28 95 0E E4 EE EA 38 31 BA 87>)
+##END=
+
+$$ hash MD5
+$$ 68 8D B6 0C 04 C0 7C 13 43 CE EE 6D E3 CA B9 CB

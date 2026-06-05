@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2026-05-18T12:56:51">
+  <PeakList2D>
+    <PeakList2DHeader creator="ramelt2@biotech-upper-wl-250.dynamic2.rpi.edu" date="2026-05-18T12:55:50" expNo="80" name="ADF_Nirmat-Mpro_EDTA_298K_2D-19F-EXSY_2026-05-08" owner="ramelt2" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04">
+      <PeakPickDetails># F2 peak picking range ( ppm )
+# 2 F1P=-71.6685, 2 F2P=-72.2789
+# F1 peak picking range ( ppm )
+# 1 F1P=-71.76, 1 F2P=-72.3185
+# MI=0.1 (= 1.1176284600000001E7), MAXI=1.0 (= 1.11762846E8)
+# PEAK RESOL.=1, INTERPOL. TYPE=NONE, DIAG. GAP=-1, MAX. # PEAKS=16384
+</PeakPickDetails>
+    </PeakList2DHeader>
+    <Peak2D F1="-72.15625" F2="-72.1493752909605" intensity="3.0034334E7" type="0"/>
+    <Peak2D F1="-71.921875" F2="-72.14544446813039" intensity="4.715353E7" type="0"/>
+    <Peak2D F1="-72.140625" F2="-71.91352592115351" intensity="5.1853602E7" type="0"/>
+    <Peak2D F1="-71.921875" F2="-71.91745674398364" intensity="1.11762846E8" type="0"/>
+  </PeakList2D>
+</PeakList>

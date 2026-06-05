@@ -1,0 +1,4 @@
+Peak 1 at -71.822 ppm
+T1    =       1.519s
+Peak 2 at -72.058 ppm
+T1    =       1.466s

@@ -1,6 +1,0 @@
-ENSITRELVIR HIGH-RES VALIDATION (DYNAMIC ARCHIVE)
-Source: vt_global_fit.npz | Temp: 298.0 K
--------------------------------------------------------
-Population (pB): 38.92%
-Archive wA/wB:  139.0 / 150.0 Hz
-Sharpened wA/wB: 109.0 / 120.0 Hz

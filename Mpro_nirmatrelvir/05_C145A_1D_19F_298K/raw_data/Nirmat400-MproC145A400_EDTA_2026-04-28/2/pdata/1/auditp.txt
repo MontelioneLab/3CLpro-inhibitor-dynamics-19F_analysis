@@ -1,0 +1,21 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-MproC145A400_EDTA_VT_2026-04-28/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-28T12:58:35.443-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-04-28T13:10:43.813-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -15.82041 PHC1 = 9.517184 SI = 32K 
+       data hash MD5: 32K
+       C4 15 F1 B9 C6 A2 A2 D5 A6 18 D5 A3 C6 78 37 35>)
+(   3,<2026-04-28T13:10:52.747-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 32K
+       3C 2B 3D 83 AE 42 FB 1B C3 59 37 04 A8 F0 C8 53>)
+##END=
+
+$$ hash MD5
+$$ C6 F9 D7 60 65 A8 B4 B2 4C 0E 34 DE D0 A1 79 BF

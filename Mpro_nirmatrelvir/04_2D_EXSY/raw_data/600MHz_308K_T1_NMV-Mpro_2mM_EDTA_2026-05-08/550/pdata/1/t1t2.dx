@@ -1,0 +1,33 @@
+##TITLE= List of Points
+##JCAMPDX= 5.0
+##DATA TYPE= LINK
+##BLOCKS= 1	$$ is the number of fits or point lists
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= ramelt2
+$$ 2026-05-19 09:52:04.934 -0400  ramelt2@valine-37.dynamic2.rpi.edu
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/550/pdata/1/t1t2.dx
+##XUNITS= sec
+##YUNITS= a.u.
+##MINX=   5.000000e-02
+##MAXX=   2.000000e+01
+##MINY=  -8.886206e-01
+##MAXY=   1.000000e+00
+##TITLE= Peak No. 2 at -65.952 ppm, t1/t2, I[0] =  9.772e-01, P = -1.890e+00, T =    1.466s
+##JCAMP-DX= 5.0
+##DATA TYPE= Relaxation Data
+$$
+##$FITFKT= t1/t2(  9.772102e-01,  -1.890078e+00,   1.465558e+00)
+$$
+##NPOINTS= 9
+##XYPOINTS= (XY..XY)
+  4.000000e+00,  8.535849e-01
+  5.000000e-02, -8.886206e-01
+  1.000000e-01, -7.458583e-01
+  2.500000e-01, -6.171538e-01
+  3.000000e+00,  7.170712e-01
+  4.000000e+00,  8.667300e-01
+  8.000000e+00,  1.000000e+00
+  1.400000e+01,  9.545701e-01
+  2.000000e+01,  9.698703e-01
+##END= $$ End of List for Peak No. 2
+##END= $$ End of List of Points

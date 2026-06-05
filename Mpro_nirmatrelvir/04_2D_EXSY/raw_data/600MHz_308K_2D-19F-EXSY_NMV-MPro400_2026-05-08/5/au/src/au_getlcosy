@@ -1,0 +1,335 @@
+/*** ^^A -*-C++-*- **********************************************/
+/*  au_getlcosy     04.01.2018                                  */
+/****************************************************************/
+/*  Short Description :                                         */
+/*  AU program for acquisition of sweep width optimized         */
+/*  COSY spectra.                                               */
+/****************************************************************/
+/*  Keywords :                                                  */
+/*  sweep width optimized COSY                                  */
+/****************************************************************/
+/*  Description/Usage :                                         */
+/*  AU program for acquisition of sweep width optimized         */
+/*  COSY spectra. This version also works when a sample         */
+/*  changer run was started without processing of the           */
+/*  acquired data. If the integral range file 'intrng' is       */
+/*  missing in the preparation experiment, then the             */
+/*  preparation data set is processed with ef, apk, sref        */
+/*  and abs. The abs command creates a new intrng file          */
+/*  which is then evaluated by the GETLCOSY command. The        */
+/*  second dataset corresponds to the F2-direction of the       */
+/*  2D-experiment.                                              */
+/*  Command line options:                                       */
+/*      usepp=1     PP for SW optimisation instead of integrals */
+/****************************************************************/
+/*  Author(s) :                                                 */
+/*  Name            : Rainer Kerssebaum                         */
+/*  Organisation    : Bruker BioSpin GmbH                       */
+/*  Email           : rainer.kerssebaum@bruker.com              */
+/****************************************************************/
+/*  Name        Date    Modification:                           */
+/*  gsc         960129  created                                 */
+/*  eng         010601  increase D0 for COSY, MLEV and          */
+/*                      ROESY type experiments for rga          */
+/*  rke         011120  do RGA on 1D for all exept COSYGPMF     */
+/*  rke         110629  in0 problem solved                      */
+/*  wem         141203  RGA with PULPROG zg_rga                 */
+/*  rke         171122  unified with au_getlcosy_pp             */
+/*  rke         171215  original 1D kept, audit info added      */
+/*  rke         180104  rga changed for Neo                     */
+/*	alexander.herbig	220329	changed SWH from float into double */
+/****************************************************************/
+/*
+$Id:$
+*/
+
+AUERR = au_getlcosy(curdat);
+QUIT
+
+
+#undef MASR
+#undef SINO
+#undef TILT
+
+/*  Define some global constants and variables         */
+#define TLL 1024
+int     debugflag=0;
+
+#include <pstruc.h>
+#include <pstruc_all.h>
+#include <lib/par.h>
+
+static void evalcmdline(void);
+static void writetitle(const char*);
+static void add_to_audit(const char*, char*);
+static int check_cmd_arg(const char*, char*, char*);
+static int do_pp(const char*);
+static int setprocno2(const char*, const int);
+
+static struct all_pars qa =
+#include <pinit_all.h>
+
+
+/* cmdline parameters */
+int     usepp=0;
+
+
+int au_getlcosy(const char* curdat)
+{
+char    disk_sav[PATH_MAX], name_sav[PATH_MAX];
+char    pulprog[64], text[512];
+double  swh1;
+double  cy;
+int     td1, qf;
+int     expno_sav = expno, procno_sav = procno, procno2_sav, tmp_procno;
+int     digmod = 0;
+
+strcpy(disk_sav,disk);
+strcpy(name_sav,name);
+
+evalcmdline();
+
+GETCURDATA2
+procno2_sav = procno2;
+
+if (access(ACQUPATH2("fid"), F_OK))
+{
+    Proc_err(ERROPT_AK_NO,"Reference spectrum does not exist, continuing with default SW.");
+}
+else
+{
+    DATASET(name2,expno2,procno2,disk2,user2)
+    procno = 1000;
+
+    do
+        procno++;
+    while (access(PROCPATH(0), F_OK) == 0);
+
+    tmp_procno = procno;
+
+    EF
+    ERRORABORT
+
+    FETCHPARS("DIGMOD", &digmod)
+
+    if (digmod == 3)
+        APK0
+    else
+        APK
+
+    SREF
+
+    if (usepp == 0)
+    {
+        ABS
+        ERRORABORT
+        sprintf(text, "%s\n       %s %i %i %s",
+        "au_getlcosy used integrals for SW determination for 2D dataset",
+        name_sav, expno_sav, procno_sav, disk_sav);
+    }
+    else
+    {
+        FETCHPAR("CY", &cy)
+        STOREPAR("MAXI", cy+1.)
+        STOREPAR("MI", cy/1000.)
+        STOREPAR("PC", 1.)
+        if (do_pp(curdat) < 0)
+            ABORT
+        sprintf(text, "%s\n       %s %i %i %s",
+        "au_getlcosy used peak picking for SW determination for 2D dataset",
+        name_sav, expno_sav, procno_sav, disk_sav);
+    }
+
+    add_to_audit(curdat, text);
+    sprintf(text, "getlimits used for: %s %i %i %s", name_sav, expno_sav, procno_sav, disk_sav);
+    writetitle(text);
+
+    DATASET(name_sav,expno_sav,procno_sav,disk_sav,user)
+
+    if (setprocno2(PROCPATH("curdat2"), tmp_procno) < 0)
+    {
+        Proc_err(ERROPT_AK_NO, "cannot write curdat2");
+        ABORT
+    }
+
+    if (usepp == 0)
+    {
+        GETLCOSY
+    }
+    else
+    {
+        GETLCOSY_PP
+    }
+
+    setprocno2(PROCPATH("curdat2"), procno2_sav);
+    ERRORABORT
+}
+
+FETCHPAR("PULPROG", pulprog)
+
+FETCHPAR1("TD", &td1)
+FETCHPAR1("SWH", &swh1)
+FETCHPAR1("FnMODE", &qf)
+
+if (!strncmp(pulprog, "cosygpmf",8))
+{
+    if (isHypercomplexFnmode(qf) > 0)
+        qf = 2;
+    else
+        qf = 1;
+
+    sprintf(text, "rga -setD0=%f", td1/(swh1*2*qf));
+}
+else if ((!strncmp(pulprog, "mlev", 4)) ||
+         (!strncmp(pulprog, "dipsi",5)) ||
+         (!strncmp(pulprog, "roesy",5)))
+{
+    sprintf(text, "rga -setD0=%f", 1./swh1);
+}
+else
+{
+    sprintf(text, "rga");
+}
+
+XCMD(text)
+
+ZG
+ERRORABORT
+
+return 0;
+}   //QUIT
+
+
+/* subroutines ****************************************************************/
+
+/* subroutine evalcmdline *****************************************************/
+static void evalcmdline(void)
+{
+int     i;
+char    argname[TLL], argvalue[TLL];
+
+if (i_argc > 2)
+{
+    if (debugflag > 2)
+        Proc_err(ERROPT_AK_OK, "DEBUG sub\n%d arguments", i_argc-2);
+
+    for (i=1; i <= i_argc-2; i++)
+    {
+        if (debugflag > 2)
+            Proc_err(ERROPT_AK_OK, "DEBUG sub\nargument %d: %s", i, i_argv[i+1]);
+
+        if (check_cmd_arg(i_argv[i+1], argname, argvalue) == 0)
+        {
+            if (debugflag > 2)
+                Proc_err(ERROPT_AK_OK,"DEBUG sub\nargname = %s\nvalue = %s", argname, argvalue);
+/*          evaluate param */
+            if (!strcmp(argname, "usepp"))
+            {
+                usepp=atoi(argvalue);
+                if ((usepp < 1) || (usepp >1))
+                    usepp = 0;
+            }
+        }
+    }
+}
+else
+{
+    if (debugflag > 2)
+        Proc_err(ERROPT_AK_OK, "DEBUG sub\nno arguments");
+}
+
+if (debugflag > 2)
+    Proc_err(ERROPT_AK_OK, "DEBUG sub\nusepp %d", usepp);
+
+} /* end subroutine */
+
+/* subroutine check_cmd_arg ***************************************************/
+static int check_cmd_arg(const char* cpar, char* pname, char* pvalue)
+{
+const char* pch = strchr(cpar, '=');
+
+if (pch == NULL)
+    return -1;
+
+sprintf(pname, "%.*s", (int)(pch - cpar), cpar);
+strcpy(pvalue, pch + 1);
+
+if (strcmp(pvalue, "(null)") == 0)
+    pvalue[0] = 0;
+
+if (debugflag > 2)
+    Proc_err(ERROPT_AK_OK, "DEBUG sub\nparname = %s %lu\nvalue = %s %lu",
+             pname, (unsigned long)strlen(pname),
+             pvalue, (unsigned long)strlen(pvalue));
+return 0;
+} /* end subroutine */
+
+/* subroutine do_pp ***********************************************************/
+static int do_pp(const char* curdat)
+{
+double  sf, sw_p, f1p, f2p, f1porig, f2porig;
+float   offset;
+int     ret = 0;
+
+/* fetch the current plotregion */
+FETCHPAR("F1P", &f1porig)
+FETCHPAR("F2P", &f2porig)
+
+/*********************************************/
+/* define the plotregion as big as */
+/* the complete acquisition region */
+FETCHPARS("OFFSET", &offset)
+FETCHPARS("SW_p", &sw_p)
+FETCHPARS("SF", &sf)
+f1p = offset;
+f2p = f1p - sw_p / sf;
+STOREPAR("F1P", f1p)
+STOREPAR("F2P", f2p)
+
+/* create the pick picking listing */
+PP
+if (AUERR < 0)
+    ret = -1;
+
+/* restore the original plotregion */
+STOREPAR("F1P",f1porig)
+STOREPAR("F2P",f2porig)
+return ret;
+} /* end subroutine */
+
+
+/* subroutine setprocno2 ******************************************************/
+static int setprocno2(const char* curdat2path, const int newprocno2)
+{
+qa.PROCNO2 = newprocno2;
+return putpar(curdat2path, "PROCNO2", &qa);
+} /* end subroutine */
+
+
+/* subroutine add_to_audit ****************************************************/
+static void add_to_audit(const char* curdat, char* audittext)
+{
+int     byteorder, si;
+char*   hashbuf = audittext + strlen(audittext);
+
+FETCHPARS("BYTORDP", &byteorder)
+FETCHPARS("SI", &si)
+
+if (CheckSumFile(PROCPATH("1r"), 0, hashbuf, 0, 0, byteorder, 0, 1, si, &si, &si) > 0)
+{
+    AuditAppend(PROCPATH("auditp.txt"), audittext);
+}
+} /* end subroutine */
+
+
+/* subroutine writetitle ******************************************************/
+static void writetitle(const char* s_text)
+{
+FILE*   fpo = fopen(PROCPATH("title"), "wt");
+
+if (fpo)
+{
+    fprintf(fpo, "%s", s_text);
+    fclose(fpo);
+}
+} /* end subroutine */

@@ -1,0 +1,94 @@
+
+New TopShim run:
+
+version = topshim 4.4.0
+date = 2026-04-28
+time = 13:01:56.767
+command = topshim ordmax=4
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168568_0025
+solvent = H2O+D2O
+shim nucleus = 1H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+Iteration 1: FWHM Before= 0.3 Hz, Target= 0.2 Hz, After= 1.0 Hz
+Iteration 2: FWHM Before= 1.0 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration 3: FWHM Before= 0.4 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration 4: FWHM Before= 0.4 Hz, Target= 0.2 Hz, After= 0.2 Hz
+Iteration 5: FWHM Before= 0.2 Hz, Target= 0.3 Hz, After= 0.3 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.442
+
+shim changes: 
+Z	-120
+Z2	-55
+Z3	-95
+Z4	-270
+
+duration = 47 sec
+completed successfully
+finished Tue Apr 28 13:02:43 2026
+
+
+========================================================================
+
+New TopShim run:
+
+version = topshim 4.4.0
+date = 2026-04-28
+time = 13:05:23.449
+command = topshim 1d optsolvent coil=1H optsolvent tunea
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168568_0025
+solvent = H2O+D2O
+shim nucleus = 1H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+Iteration 1: FWHM Before= 0.3 Hz, Target= 0.2 Hz, After= 0.2 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.342
+
+
+Performing tune after shimming
+tune lock level increase = 1.1
+
+shim changes: 
+Z	+109
+Z2	+10
+Z3	+29
+Z4	-368
+Z5	-240
+Z6	+2833
+Z7	+381
+Z8	-12186
+X	-83
+XZ	-188
+Y	+17
+YZ	+32
+
+duration = 2 min 16 sec
+completed successfully
+finished Tue Apr 28 13:07:39 2026
+
+
+========================================================================

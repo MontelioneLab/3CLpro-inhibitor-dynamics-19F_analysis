@@ -1,0 +1,112 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/291/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T18:09:54.064-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-07T18:46:02.540-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 49.28655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       C0 EE 1B CC B3 0C 8E AF 07 F4 6C 6C 3A 20 2E FD>)
+(   3,<2026-05-07T18:46:08.765-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       8B 5F 13 4F 25 EB AC 14 CC 14 DC E8 E0 6F 51 03>)
+(   4,<2026-05-07T18:46:12.829-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       23 4C 0A 74 24 29 04 FC 4A 8D 4F CC 68 F3 D2 BF>)
+(   5,<2026-05-07T18:46:15.512-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       92 35 AC E4 93 40 92 58 50 07 E8 AB A1 3A 0E B5>)
+(   6,<2026-05-07T18:46:18.241-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 52.70655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       38 3D 73 79 E7 72 BA 6F A6 27 D7 8F 74 35 D8 9B>)
+(   7,<2026-05-07T20:15:27.878-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 10.00>)
+(   8,<2026-05-07T20:15:28.746-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 52.70655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       A7 51 A7 E9 C0 87 48 9F 85 5C 99 4D 20 A6 54 93>)
+(   9,<2026-05-07T20:15:32.001-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       93 34 8E 89 7A 8B A6 02 8C 01 B7 86 26 A3 8A 37>)
+(  10,<2026-05-08T08:48:10.984-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 5.00>)
+(  11,<2026-05-08T08:48:11.891-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 40.80656 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       44 74 68 4D DD 46 84 5D 48 A9 BA B4 7D 23 AE 0E>)
+(  12,<2026-05-08T08:48:16.749-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       C7 5D 77 0D F9 D0 44 BA B9 CA 77 94 56 D9 B3 98>)
+(  13,<2026-05-08T08:48:18.333-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       4A 08 62 4F 44 C7 BC 09 6D 39 83 9D 80 E2 0D 65>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/291/pdata/1/auditp.txt
+(  14,<2026-05-11 19:05:39.139 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 42.80656 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       8C D2 B5 36 17 19 72 FC 0B 3F 27 9D 42 82 87 CC>)
+(  15,<2026-05-11 19:05:39.210 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       BA A3 81 B2 E9 0A CA D3 E0 80 4F 7F B3 B8 E1 B0>)
+(  16,<2026-05-11 19:05:39.425 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -4 ABSF1 = 4 
+       data hash MD5: 64K
+       AA 83 AD 25 4A 93 5E 17 EA 02 A1 E6 4E 9D B9 FE>)
+(  17,<2026-05-11 19:05:39.577 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -3 ABSF1 = 3 
+       data hash MD5: 64K
+       29 02 E7 9F 9A 55 C4 FE 0C 69 60 EC F9 E2 8E 7D>)
+(  18,<2026-05-11 19:05:39.778 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -2 ABSF1 = 2 
+       data hash MD5: 64K
+       A9 B3 BA A7 24 E7 41 57 FC EC F0 06 2E 21 A9 8D>)
+(  19,<2026-05-11 19:06:55.133 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 0 PHC1 = 0 SI = 64K 
+       data hash MD5: 64K
+       AB 14 04 1B B9 5A 3B 3A E1 7C 96 CF CF 16 A1 3C>)
+(  20,<2026-05-11 19:06:57.174 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <apk0 
+       data hash MD5: 64K
+       FB 5F 9D 1F DC 49 4B E0 AD 3E 79 42 04 41 8D 10>)
+(  21,<2026-05-11 19:07:00.514 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 32.98 PHC1 = 0 SI = 64K 
+       data hash MD5: 64K
+       11 29 1C 51 81 EE CC 8D 48 5A 01 7F 8B 4B C1 1C>)
+(  22,<2026-05-11 19:07:00.561 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       1C B9 6C 44 20 99 1E 0E 4B 04 3E 7A 57 43 F0 05>)
+(  23,<2026-05-11 19:07:00.836 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -4 ABSF1 = 4 
+       data hash MD5: 64K
+       01 04 D4 92 DB 25 33 72 84 A5 8E CA 72 4C 26 6C>)
+(  24,<2026-05-11 19:07:01.079 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -3 ABSF1 = 3 
+       data hash MD5: 64K
+       57 91 B1 8F 4A 0A 76 14 BF BA CD AB C0 13 68 B9>)
+(  25,<2026-05-11 19:07:01.390 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -2 ABSF1 = 2 
+       data hash MD5: 64K
+       34 BA 63 06 5D C2 D7 3C 92 33 AE C4 8D 01 50 8F>)
+##END=
+
+$$ hash MD5
+$$ A9 29 4D 0D DF 99 7F A2 C2 2B 78 74 03 F3 2F 8B

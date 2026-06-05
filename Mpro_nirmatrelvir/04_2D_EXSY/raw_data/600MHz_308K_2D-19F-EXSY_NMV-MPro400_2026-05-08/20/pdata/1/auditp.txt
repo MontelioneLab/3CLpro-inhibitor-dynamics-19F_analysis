@@ -1,0 +1,28 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/20/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T17:52:43.163-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/20/pdata/1/auditp.txt
+(   2,<2026-05-08T16:50:12.238-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc2d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 15.2 PHC1 = 0 F1: TDeff = 24 SI = 64 WDW = 1 LB = 20 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       38 FA 5D 13 2A 4B D8 B9 A2 2B C3 2B 6B C8 F4 30>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/20/pdata/1/auditp.txt
+(   3,<2026-05-12 14:08:34.915 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc2d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       xfb F2: SI = 512 WDW = 1 LB = 15 FT_mod = 6 PKNL = 1 PHC0 = 16.4 PHC1 = 0 F1: TDeff = 24 SI = 64 WDW = 1 LB = 15 FT_mod = 4 FCOR = 1 PHC0 = 90 PHC1 = -180
+       data hash MD5: 512 * 64
+       5D 50 F4 4E F3 43 ED 0C 97 2B F9 D4 FE 24 A2 FA>)
+(   4,<2026-05-12 14:08:34.981 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc2d>,<TopSpin 4.0.9>,
+      <abs2 F2: ABSG = 5 ABSF1 = -70.99371 ABSF2 = -73.00629
+       data hash MD5: 512 * 64
+       82 96 9F DC 77 4B 47 96 A8 DE 18 6C 32 E5 86 83>)
+##END=
+
+$$ hash MD5
+$$ 76 78 86 AC D4 55 2B 1A A0 68 F1 72 3E 99 FD 53

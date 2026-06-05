@@ -1,0 +1,52 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_2D-19F-noesy_2026-04-15/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-15T16:22:46.404-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_2D-19F-noesy_2026-04-15/2/pdata/1/auditp.txt
+(   2,<2026-04-15T16:32:15.625-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -15.82041 PHC1 = 9.517184 SI = 32K 
+       data hash MD5: 32K
+       28 21 71 87 89 8D 7B B7 0F 03 35 25 9A 07 32 D7>)
+(   3,<2026-04-15T16:34:34.342-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -15.82041 PHC1 = 9.517184 SI = 32K 
+       data hash MD5: 32K
+       C0 E5 4E 7B 03 23 4A 1A 1D 80 11 A4 82 1E DF E4>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/2/pdata/1/auditp.txt
+(   4,<2026-05-07T22:25:31.926-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=ZGESGP  288 KTITLE_END
+       data hash MD5: 32K
+       C0 E5 4E 7B 03 23 4A 1A 1D 80 11 A4 82 1E DF E4>)
+(   5,<2026-05-07T22:26:05.231-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -15.82041 PHC1 = 9.517184 SI = 32K 
+       data hash MD5: 32K
+       61 A9 43 0D 37 A9 AA D3 41 A9 CD BC 0C CD 30 F0>)
+(   6,<2026-05-07T22:26:19.030-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 32K
+       4E 23 93 A8 83 FB E3 E9 6A A7 FC AE E4 FD AF 99>)
+(   7,<2026-05-07T22:26:28.073-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 32K
+       4E 23 93 A8 83 FB E3 E9 6A A7 FC AE E4 FD AF 99>)
+(   8,<2026-05-07T22:26:43.381-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <pk fgphup PHC0 = 4.009375 PHC1 = 0 
+       data hash MD5: 32K
+       2E 13 53 70 27 22 05 98 F6 50 FF 21 54 E8 F3 71>)
+(   9,<2026-05-07T22:27:13.670-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=ZGESGP  288 K
+       before EXSYTITLE_END
+       data hash MD5: 32K
+       2E 13 53 70 27 22 05 98 F6 50 FF 21 54 E8 F3 71>)
+##END=
+
+$$ hash MD5
+$$ 61 A7 B7 CA 2C FF D0 74 DC 5D A1 0C AE 6E CB 39

@@ -1,0 +1,54 @@
+Dataset :
+ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/550/pdata/1
+INTENSITY fit :
+ I[t]=I[0]+P*exp(-t/T1)
+
+11 points for Peak 1,  Peak Point at -71.822 ppm
+Results     Comp. 1    
+
+I[0]  =    9.915e-01
+P     =   -1.900e+00
+T1    =       1.519s
+SD    =    9.198e-03
+
+    tau    ppm     integral    intensity
+
+    4.000s   -71.822   8.2536e+09   3.9705e+08
+   50.000m   -71.820  -8.3718e+09  -4.0372e+08
+  100.000m   -71.821  -7.6984e+09  -3.7038e+08
+  250.000m   -71.822  -5.9171e+09  -2.8441e+08
+  500.000m   -71.820  -3.4996e+09   -1.686e+08
+    1.000s   -71.822   9.3636e+07     eliminated
+    2.000s   -71.821   4.6619e+09   2.2448e+08
+    3.000s   -71.821   7.0389e+09   3.3846e+08
+    4.000s   -71.819   8.2117e+09   3.9512e+08
+    8.000s   -71.820   9.5904e+09   4.6209e+08
+   14.000s   -71.821   9.6195e+09   4.6321e+08
+   20.000s   -71.822   9.7293e+09   4.6764e+08
+
+
+
+9 points for Peak 2,  Peak Point at -72.058 ppm
+Results     Comp. 1    
+
+I[0]  =    9.772e-01
+P     =   -1.890e+00
+T1    =       1.466s
+SD    =    2.418e-02
+
+    tau    ppm     integral    intensity
+
+    4.000s   -72.057    4.781e+09   2.2882e+08
+   50.000m   -72.060  -4.9666e+09  -2.3821e+08
+  100.000m   -72.058  -4.1765e+09  -1.9994e+08
+  250.000m   -72.060  -3.4517e+09  -1.6544e+08
+  500.000m   -72.058  -2.0585e+09     eliminated
+    1.000s   -72.058   2.1321e+08     eliminated
+    2.000s   -72.058   2.6705e+09     eliminated
+    3.000s   -72.059   4.0021e+09   1.9222e+08
+    4.000s   -72.056   4.8443e+09   2.3234e+08
+    8.000s   -72.059   5.5992e+09   2.6807e+08
+   14.000s   -72.054   5.3373e+09   2.5589e+08
+   20.000s   -72.056   5.4343e+09   2.5999e+08
+
+

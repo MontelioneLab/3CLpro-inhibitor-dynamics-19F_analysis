@@ -1,5 +1,0 @@
-TITLE=F19
-rpar PROTONT1
-set vdlist
-setup for 19F
-d1=20 sTITLE_END

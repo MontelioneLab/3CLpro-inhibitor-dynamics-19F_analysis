@@ -1,0 +1,17 @@
+ <TRX channel="1">
+	<summary>Optimal performance achieved</summary>
+	<maxAdcModulation>
+		<utcDate>14-20:29:07.847</utcDate>
+		<adcModulationPercent>58</adcModulationPercent>
+		<numScan>9</numScan>
+		<numExp>0</numExp>
+	</maxAdcModulation>
+	<minAdcModulation>
+		<utcDate>14-19:59:04.547</utcDate>
+		<adcModulationPercent>36</adcModulationPercent>
+		<numScan>4</numScan>
+		<numExp>0</numExp>
+	</minAdcModulation>
+	<adcOverflow>no</adcOverflow>
+</TRX>
+

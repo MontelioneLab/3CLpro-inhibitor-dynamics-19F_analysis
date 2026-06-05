@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_Mpro150_Zn_EDTA_2026-04-14_hudson/23/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-14T17:35:13.510-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-04-14T17:49:33.005-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 6 FT_mod = 6 PKNL = 1 PHC0 = 163.8777 PHC1 = -6.338066 SI = 32K
+       fid double data hash MD5: 32K
+       4E E2 16 4C 38 6C 2B 56 06 61 7A 9B EC 8E 84 1B
+       data hash MD5: 32K
+       31 BC 75 37 42 51 7A 1D 30 55 B0 48 98 30 C2 84>)
+(   3,<2026-04-14T18:03:38.472-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 6 FT_mod = 6 PKNL = 1 PHC0 = 163.8777 PHC1 = -6.338066 SI = 32K
+       fid double data hash MD5: 32K
+       4E E2 16 4C 38 6C 2B 56 06 61 7A 9B EC 8E 84 1B
+       data hash MD5: 32K
+       31 BC 75 37 42 51 7A 1D 30 55 B0 48 98 30 C2 84>)
+##END=
+
+$$ hash MD5
+$$ DD 26 D2 18 5F F0 3E 89 85 61 47 B1 6B 10 DC 99

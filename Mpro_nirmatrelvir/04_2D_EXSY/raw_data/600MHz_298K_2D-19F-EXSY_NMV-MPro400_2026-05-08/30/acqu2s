@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 4.4.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 78	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ 2026-05-09 00:51:48.776 -0400  monteg3@mohawk.biotech.rpi.edu
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_298K_2D-19F-EXSY_2026-05-08/30/acqu2s
+$$ process /opt/topspin4.4.0/prog/mod/acqdataserver
+##$ACQT0= 0
+##$BF1= 564.629932
+##$FnILOOP= 1
+##$FnMODE= 5
+##$NUC1= <19F>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 24
+##$O1= -40653.355104
+##$ProjAngle= 0
+##$SFO1= 564.589278644896
+##$SW= 1.00007200518437
+##$SW_h= 564.629931999998
+##$TD= 24
+##END=

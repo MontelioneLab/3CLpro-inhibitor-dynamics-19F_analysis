@@ -1,0 +1,45 @@
+
+New TopShim run:
+
+version = topshim 4.4.0
+date = 2026-05-07
+time = 17:14:28.687
+command = topshim 1d optsolvent coil=19F optsolvent tuneaoff
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168568_0025
+solvent = H2O+D2O_salt
+shim nucleus = 1H
+nucleus optimised for = 19F
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+NOTE: No 19F B1-profile found. Optimizing shimming as if for NMR nucleus = 1H
+
+
+1D Shimming:
+Low S/N encountered. The acquisition parameters will be changed to improve this issue.
+Iteration 1: FWHM Before= 1.0 Hz, Target= 0.4 Hz, After= 0.6 Hz
+Iteration 2: FWHM Before= 0.6 Hz, Target= 0.4 Hz, After= 0.8 Hz
+Iteration 3: FWHM Before= 0.8 Hz, Target= 0.6 Hz, After= 0.4 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.682
+
+shim changes: 
+Z	+38
+Z2	+13
+Z3	-8
+Z4	-48
+Z5	+2
+
+duration = 58 sec
+completed successfully
+finished Thu May  7 17:15:26 2026
+
+
+========================================================================

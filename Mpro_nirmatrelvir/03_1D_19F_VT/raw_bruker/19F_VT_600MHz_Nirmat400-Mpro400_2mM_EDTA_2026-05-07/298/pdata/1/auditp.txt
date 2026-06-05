@@ -1,0 +1,113 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/298/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T16:39:45.326-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-07T16:49:55.760-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 23.70655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       EC CA 20 F7 5D E5 A8 88 32 DF 13 E6 40 5A 8F 94>)
+(   3,<2026-05-07T16:49:58.778-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       B5 FA 89 E0 08 D5 AA F6 43 8E DC 8C 7D 9F E0 95>)
+(   4,<2026-05-07T16:50:08.605-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       C5 B4 A2 7E 12 98 D8 98 41 BC 7E 1D BB 94 96 18>)
+(   5,<2026-05-07T17:03:56.220-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 52.84655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       75 7E C9 08 E2 1D 6E D3 A3 DF F2 C8 DD 3F 54 9E>)
+(   6,<2026-05-07T17:03:59.543-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       C9 7B 7F A4 9A 9D B0 AE FF CA FC 75 E1 93 77 46>)
+(   7,<2026-05-07T17:04:07.195-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       F9 AF EA A2 BD 51 23 08 18 FC FB B7 31 BF B4 9F>)
+(   8,<2026-05-07T20:15:03.602-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 10.00>)
+(   9,<2026-05-07T20:15:04.810-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 70.66655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       79 90 A7 63 42 A9 90 09 29 9C 47 36 AF FF 81 09>)
+(  10,<2026-05-08T08:18:43.554-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       72 EA B4 AB C5 26 6B 23 96 50 4E 3E 84 8C 5D 78>)
+(  11,<2026-05-08T08:50:26.389-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 5.00>)
+(  12,<2026-05-08T08:50:27.093-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 70.66655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       C0 81 80 BC 1D 29 78 52 D8 EB F1 EA 38 58 B7 35>)
+(  13,<2026-05-08T08:50:28.372-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       D5 53 45 A3 DA A9 DF 84 80 71 8C 71 6C 5D BF E5>)
+(  14,<2026-05-08T08:50:30.236-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       30 1E 46 AC 20 24 FC 37 C5 71 E8 43 45 D4 3F C7>)
+(  15,<2026-05-08T08:50:31.996-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 74.18655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       A6 CF 80 1A 66 6F 92 4F 40 7D 3B 96 BC C0 BD 12>)
+(  16,<2026-05-08T08:50:34.657-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       77 14 6B FD 29 A0 9B FB A4 6C FE 4F F7 69 D6 2B>)
+(  17,<2026-05-08T08:50:37.552-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       48 41 1A B9 2D 3C 54 53 12 F2 0E C4 3E F1 A1 FB>)
+(  18,<2026-05-08T10:53:16.152-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 74.80655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       E5 A2 5A EA F6 92 BD AE 8E 4B DF FC 28 DD 36 D8>)
+(  19,<2026-05-08T10:53:19.029-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       E5 A2 5A EA F6 92 BD AE 8E 4B DF FC 28 DD 36 D8>)
+(  20,<2026-05-08T10:53:19.619-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       CC 99 74 D5 E5 36 2B 0B B1 F5 73 76 EA 7E 8F F0>)
+(  21,<2026-05-08T10:55:55.651-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 74.80655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       E5 A2 5A EA F6 92 BD AE 8E 4B DF FC 28 DD 36 D8>)
+(  22,<2026-05-08T10:55:58.021-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       E5 A2 5A EA F6 92 BD AE 8E 4B DF FC 28 DD 36 D8>)
+(  23,<2026-05-08T10:55:58.304-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       CC 99 74 D5 E5 36 2B 0B B1 F5 73 76 EA 7E 8F F0>)
+(  24,<2026-05-08T10:57:05.950-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=BAD? 19F - long 1D
+       d1= 4 x T1 = 6.4sec to get accurate integrals.
+       updated with calibrated p1 and power for 19F
+       13 us at 8 Watts.
+       TE=299.6 is 298K
+       pos 7TITLE_END
+       data hash MD5: 64K
+       CC 99 74 D5 E5 36 2B 0B B1 F5 73 76 EA 7E 8F F0>)
+##END=
+
+$$ hash MD5
+$$ CC 07 FA A1 E2 98 D0 74 D4 23 CA 43 C7 13 3F 14

@@ -1,0 +1,46 @@
+##TITLE= Parameter file, TopSpin 4.0.9
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 157	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ 2026-05-19 09:21:27.001 -0400  ramelt2@valine-37.dynamic2.rpi.edu
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/550/pdata/1/t1par
+$$ process /opt/topspin4.0.9/prog/mod/dataserver
+##$BIGDEL= 100
+##$CALCDN= yes
+##$COMPNO= 1
+##$CONV= 1e-05
+##$CURSOR= 2
+##$DRIFT= 5
+##$EDGUESS= 0
+##$EDPARM= 0
+##$FCTTYPE= 0
+##$FIDNUMB= 1
+##$FITT1T2= 0
+##$FITTYPE= 0
+##$GAMM= 10000
+##$GRADIEN= 1
+##$GUESSES= (0..23)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$INC= 1
+##$INTRNG= 0
+##$LISTINC= 0.001
+##$LISTTYP= <vdlist>
+##$LITDEL= 10
+##$MAXPNTS= 12
+##$NUMPNTS= 12
+##$NUMTERM= 3
+##$PARM= (0..11)
+0.991624880196222 -1.87888690089964 1.44957011781639 0 0 0 0 0 0 0 0 0
+##$PDTYP= <pd>
+##$REGIONS= 2
+##$SHOWINT= yes
+##$SHOWPP= no
+##$SHOWTXT= 1
+##$START= 1
+##$X_END= 20
+##$X_START= 0.05
+##$Y_END= 2.137601e+08
+##$Y_START= -1.759903e+08
+##END=

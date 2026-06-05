@@ -1,0 +1,36 @@
+
+Report of AU program poptau
+# Start time: 2026-05-09 12:14:41.443 -0400
+
+Number of experiments: 11
+total experiment time will be:  2 min 45 sec
+
+F1P=-71.050ppm F2P=-72.819ppm
+Target directory for serfile: /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/899
+PH_mode=1  FT_mod=6
+
+
+PROCNO=999
+
+Linear optimization of P 1 in 11 steps, as Step: Group 0
+starting at 20.000000000  endval= 60.000000000 
+OPTIMUM= ZERO
+VARMOD= LIN
+
+Experiment        P 1         Maximum point   Minimum point       Integral
+     1      20.000000000000       306622968       -42131318      34392072.463765
+     2      24.000000000000       169321736       -37983187      11369211.319034
+     3      28.000000000000        62140796       -55643660       2005811.146293
+     4      32.000000000000        43095058       -89431450      -3976186.035194
+     5      36.000000000000        52333359      -203231542     -20044976.350167
+     6      40.000000000000        59466858      -281581940     -28096092.464390
+     7      44.000000000000        46398664      -274545712     -30583016.088297
+     8      48.000000000000        43255518      -227670541     -21445333.210746
+     9      52.000000000000        47732440       -96179047      -8238882.446481
+    10      56.000000000000        46374432       -33706921       1980144.576010
+    11      60.000000000000       105591378       -51036851       5598159.147334
+ZERO crossing (integrated intensity array) at experiment 3.34 
+ZERO crossing (between POSMAX and NEGMAX)  at experiment 3.41 
+poptau for P 1 finished.
+ZERO at experiment 3.34:  P 1 = 29.341232  
+

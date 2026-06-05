@@ -1,0 +1,46 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_Mpro150_Zn_EDTA_2026-04-14_hudson/11/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-14T15:43:04.824-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc EXPNO=11 PROCNO=1>)
+(   2,<2026-04-14T15:55:26.106-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter 1 D 1 to 5.000000000>)
+(   3,<2026-04-14T15:55:57.166-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 SW to 17.3580>)
+(   4,<2026-04-14T15:56:00.181-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 SW to 14.8783>)
+(   5,<2026-04-14T15:56:14.076-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 TD to 65536>)
+(   6,<2026-04-14T15:56:51.985-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter 1 D 1 to 2.000000000>)
+(   7,<2026-04-14T15:57:00.995-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 TD to 32768>)
+(   8,<2026-04-14T15:57:19.282-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 256>)
+(   9,<2026-04-14T15:57:21.594-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 512>)
+(  10,<2026-04-14T15:58:25.652-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 1024>)
+(  11,<2026-04-14T19:58:36.676+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  12,<2026-04-14T16:30:12.654-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 600>)
+(  13,<2026-04-14T20:33:32.518+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '52c8010e-383c-11f1-aeb1-0030d62dd919'
+       started at 2026-04-14 19:58:36.675 +0000, POWCHK enabled, PULCHK disabled,
+       terminated by command 'stop' at 2026-04-14 20:33:32.518 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       2A 57 6C 88 F1 5F BC 98 BC 93 EB 39 BE F6 45 49>)
+$$ /opt/nmrdata/monteg3/ADF_Mpro150_Zn_EDTA_2026-04-14_hudson/21/audita.txt
+(  14,<2026-04-14T16:49:17.410-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 562>)
+##END=
+
+$$ hash MD5
+$$ D0 FD 80 EB B0 FE 25 48 52 CA FA 97 CC 31 78 3F

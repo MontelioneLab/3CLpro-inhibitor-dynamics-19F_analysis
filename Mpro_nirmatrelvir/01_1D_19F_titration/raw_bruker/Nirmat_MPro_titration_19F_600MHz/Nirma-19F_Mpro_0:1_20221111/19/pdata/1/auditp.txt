@@ -62,7 +62,13 @@ $$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_M
       <absf 5 ABSG = 5 ABSF2 = -76 ABSF1 = -70 
        data hash MD5: 11000
        EE 77 D8 67 2C 1C B0 C5 21 34 3E 24 5B C6 AF ED>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/for_GitHub/3CLpro-inhibitor-dynamics-19F_analysis/Mpro_nirmatrelvir/01_1D_19F_titration/raw_bruker/Nirmat_MPro_titration_19F_600MHz/Nirma-19F_Mpro_0:1_20221111/19/pdata/1/auditp.txt
+(  13,<2026-03-31 14:59:24.916 -0400>,<ramelt2>,<valine-56.dynamic2.rpi.edu>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 20 FT_mod = 6 PKNL = 1 PHC0 = 68.16 PHC1 = 0 SI = 11000 
+       data hash MD5: 11000
+       D0 1B EC 18 5B 77 18 DB 14 37 DF 71 AD 3B 66 8E>)
 ##END=
 
 $$ hash MD5
-$$ 73 EC F0 BD 43 30 F0 41 61 D6 40 97 6A BE 7E EE
+$$ 69 0E 5A 20 61 15 6F 6C 13 59 F5 C2 FF 26 43 60

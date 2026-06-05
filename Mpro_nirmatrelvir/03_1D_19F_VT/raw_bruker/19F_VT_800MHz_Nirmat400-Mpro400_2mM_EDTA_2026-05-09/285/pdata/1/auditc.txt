@@ -1,0 +1,2 @@
+TITLE=Fluorine NMR
+temp on topspin 286.4 real T 285 KTITLE_END

@@ -1,0 +1,41 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/20/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T17:52:43.164-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=20 PROCNO=1>)
+(   2,<2026-05-07T17:52:50.965-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 8 to 0.020000000>)
+(   3,<2026-05-08T04:26:19.836+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   4,<2026-05-08T05:21:51.401+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '0fd27976-4a96-11f1-b395-0030d62e2a2f'
+       started at 2026-05-08 04:26:19.836 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-08 05:21:51.398 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       69 09 76 B4 A4 04 2E 43 7A 6C 0A 29 70 8F C6 80>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/20/audita.txt
+(   5,<2026-05-08T14:37:51.912-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 TE to 309.9>)
+(   6,<2026-05-08T19:05:14.645+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <raw data deleted by zg>)
+(   7,<2026-05-08T19:05:14.645+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   8,<2026-05-08T20:00:46.206+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID 'd8354f72-4b10-11f1-9234-0030d62e2a2f'
+       started at 2026-05-08 19:05:14.645 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-08 20:00:46.203 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       16 66 E3 4E 8B 7E 90 76 6C A4 B9 EC 2D 76 E2 3E>)
+##END=
+
+$$ hash MD5
+$$ 2C 84 85 A9 7E F5 F6 50 0C 0A AB C5 10 65 A9 15

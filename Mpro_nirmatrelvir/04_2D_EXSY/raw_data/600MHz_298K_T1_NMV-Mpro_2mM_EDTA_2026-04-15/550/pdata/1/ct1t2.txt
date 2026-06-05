@@ -1,0 +1,21 @@
+Dataset :
+ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_2D-19F-noesy_2026-04-15/550/pdata/1
+INTENSITY fit :
+ I[t]=I[0]+P*exp(-t/T1)
+
+2 points for Peak 2,  Peak Point at -72.148 ppm
+Results     Comp. 1    
+
+I[0]  =    1.000e+00
+P     =   -2.000e+00
+T1    =       1.000s
+SD    =    0.000e+00
+
+    tau    ppm     integral    intensity
+
+    4.000s   -72.147    1.901e+10   2.1687e+08
+   50.000m   -72.148  -1.8311e+10     eliminated
+  100.000m   -72.148  -1.7469e+10     eliminated
+  250.000m   -72.144  -1.3681e+10  -1.5554e+08
+
+

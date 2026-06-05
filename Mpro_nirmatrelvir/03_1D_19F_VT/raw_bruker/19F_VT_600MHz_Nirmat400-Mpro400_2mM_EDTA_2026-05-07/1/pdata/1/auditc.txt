@@ -1,0 +1,9 @@
+TITLE=20 mM tris 100 mM NaCl,  2 mM DTT, no TCEP ,1-2% dmso, 0.02% NaN3, 10 % D2O pH 7.4
+400 uM Mpro 400 uM ENS - 2 mM EDTA
+proton
+
+100% MeOH temp cal done this afternoon - 299.6, no correction
+298 K
+new sample made by ADF 5/7/2026
+from freezer + new NMV in DMSO stock
+position 7TITLE_END

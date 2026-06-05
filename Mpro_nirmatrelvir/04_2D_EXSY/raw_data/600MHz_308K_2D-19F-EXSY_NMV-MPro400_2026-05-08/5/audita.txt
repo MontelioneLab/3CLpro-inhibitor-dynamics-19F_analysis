@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/5/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T17:52:10.825-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=5 PROCNO=1>)
+(   2,<2026-05-07T17:52:21.188-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 D 8 to 0.005000000>)
+(   3,<2026-05-08T02:35:33.695+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   4,<2026-05-08T03:30:53.517+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '9669e31c-4a86-11f1-b164-0030d62e2a2f'
+       started at 2026-05-08 02:35:33.694 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-08 03:30:53.513 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       52 7E C2 52 CF A2 8C 42 DA 3C 0D B3 A4 B2 FF 18>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/5/audita.txt
+(   5,<2026-05-08T16:58:03.256+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <raw data deleted by zg>)
+(   6,<2026-05-08T16:58:03.257+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   7,<2026-05-08T17:53:23.313+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '138bd5e4-4aff-11f1-8773-0030d62e2a2f'
+       started at 2026-05-08 16:58:03.257 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-08 17:53:23.310 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       73 64 0D 7F E8 38 9B 88 C2 B1 5A 37 0B 30 19 9E>)
+##END=
+
+$$ hash MD5
+$$ 05 A2 11 19 AB AD 6F F4 0F 3A CD 1D 4A 94 AB 19

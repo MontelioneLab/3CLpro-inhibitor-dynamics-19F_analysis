@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2026-05-19T08:50:01">
+  <PeakList2D>
+    <PeakList2DHeader creator="ramelt2@valine-37.dynamic2.rpi.edu" date="2026-05-19T08:49:41" expNo="5" name="ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07" owner="ramelt2" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04">
+      <PeakPickDetails># Manually picked peaks
+</PeakPickDetails>
+    </PeakList2DHeader>
+    <Peak2D F1="-72.015625" F2="-72.01965813756665" intensity="1.26928542E8" type="0"/>
+    <Peak2D F1="-72.25" F2="-72.24764586171341" intensity="6.5140322E7" type="0"/>
+    <Peak2D F1="-72.046875" F2="-72.23585339322307" intensity="1.903458E7" type="0"/>
+  </PeakList2D>
+  <PeakList2D>
+    <PeakList2DHeader creator="ramelt2@valine-37.dynamic2.rpi.edu" date="2026-05-19T08:50:11" expNo="5" name="ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07" owner="ramelt2" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04">
+      <PeakPickDetails># Manually picked peaks
+</PeakPickDetails>
+    </PeakList2DHeader>
+    <Peak2D F1="-72.23898380135516" F2="-72.03131449422418" intensity="2.5147626E7" type="1"/>
+  </PeakList2D>
+</PeakList>

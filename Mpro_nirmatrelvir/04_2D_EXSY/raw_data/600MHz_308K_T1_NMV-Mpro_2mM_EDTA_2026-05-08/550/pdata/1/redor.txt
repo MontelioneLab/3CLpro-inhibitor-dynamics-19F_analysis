@@ -1,0 +1,26 @@
+Dataset :
+/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_Nirmat-Mpro_EDTA_308K_2D-19F-EXSY_2026-05-08/550/pdata/1
+
+Spinning speed : 1.000000
+
+Peak 1 (xy -71.822 ppm)
+
+    number integral(S0) integral(S*) intensity(S0) intensity(S*)
+
+         1    -8.37e+09     8.25e+09     -4.04e+08      3.97e+08
+         2    -5.92e+09     -7.7e+09     -2.84e+08      -3.7e+08
+         3     9.36e+07     -3.5e+09             0     -1.69e+08
+         4     7.04e+09     4.66e+09      3.38e+08      2.24e+08
+         5     9.59e+09     8.21e+09      4.62e+08      3.95e+08
+         6     9.73e+09     9.62e+09      4.68e+08      4.63e+08
+
+    time(mS) DS/S0(integral) DS/S0(intensity)
+
+           2               0                0
+           4               0                0
+           6           38.37                0
+           8          0.3377           0.3368
+          10          0.1438           0.1449
+          12         0.01128         0.009474
+
+

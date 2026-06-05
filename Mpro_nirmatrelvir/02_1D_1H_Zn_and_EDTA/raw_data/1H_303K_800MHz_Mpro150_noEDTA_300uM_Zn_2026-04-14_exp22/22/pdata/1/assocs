@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.4.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ 2026-04-14 17:23:12.840 -0400  monteg3@hudson
+$$ /opt/nmrdata/monteg3/ADF_Mpro150_Zn_EDTA_2026-04-14_hudson/22/pdata/1/assocs
+$$ process /opt/topspin4.4.1/prog/mod/dataserver
+##$MULTDISP= </opt/nmrdata/monteg3/ADF_Mpro150_Zn_EDTA_2026-04-14_hudson/21/pdata/1>
+##END=

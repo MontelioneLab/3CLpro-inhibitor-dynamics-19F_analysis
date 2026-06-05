@@ -1,0 +1,11 @@
+=== MPro C145A MUTANT FIT RESULTS ===
+Source Data     : /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/for_GitHub/3CLpro-inhibitor-dynamics-19F_analysis/Mpro_nirmatrelvir/05_C145A_1D_19F_298K/processed_ascii/C145A_nirmat_298K_LB10_EDTA_600MHz/spec_298.dat
+Assumed Width A : 70.5 Hz
+Assumed Width B : 70.0 Hz
+---------------------------------------------
+k_ex            : 6.30 s^-1
+Population B    : 17.94 %
+Separation dNu  : 101.25 Hz
+Center Shift    : -48.85 Hz
+Amplitude Scale : 249.2
+Baseline Floor  : 0.0010

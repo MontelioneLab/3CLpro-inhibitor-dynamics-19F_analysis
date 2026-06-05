@@ -1,0 +1,59 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-09T11:25:52.366-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-09T11:36:58.784-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K
+       fid double data hash MD5: 64K
+       6D 89 FB 18 FD 22 5D 80 27 83 9C F4 6B 91 47 E9
+       data hash MD5: 64K
+       40 99 82 8A 48 96 D3 F9 62 D3 BF C7 49 01 01 57>)
+(   3,<2026-05-09T11:36:58.865-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K
+       data hash MD5: 64K
+       FD 26 14 D3 C9 5E D4 46 42 AB 9A B5 99 54 39 3F>)
+(   4,<2026-05-09T11:36:59.088-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk
+       data hash MD5: 64K
+       68 3E 03 3B 9B 45 A7 6E 58 44 18 7F 32 C7 FD 83>)
+(   5,<2026-05-09T11:36:59.167-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <abs n ABSG = 5
+       data hash MD5: 64K
+       EA 8E 2B C4 C0 DF B5 9D 0A C2 99 18 47 B1 CC D7>)
+(   6,<2026-05-09T11:37:01.910-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 92.85463 PHC1 = 114.5307 SI = 64K
+       fid double data hash MD5: 64K
+       6D 89 FB 18 FD 22 5D 80 27 83 9C F4 6B 91 47 E9
+       data hash MD5: 64K
+       A5 65 ED 21 C8 59 E7 9A D8 0F 47 C7 9D A3 26 93>)
+(   7,<2026-05-09T11:37:08.998-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk0
+       data hash MD5: 64K
+       8A 72 C3 B5 1D 74 19 4B 9A 3B E3 80 FB D2 1C C1>)
+(   8,<2026-05-09T11:44:07.283-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 93.85463 PHC1 = 114.5307 SI = 64K
+       fid double data hash MD5: 64K
+       5C 53 1E 7E 03 A7 54 76 8B 4F 69 C6 4E DE C0 69
+       data hash MD5: 64K
+       77 9A 6E BF 00 0C 17 4D 0D A4 9A DE EB 55 00 23>)
+(   9,<2026-05-09T12:56:25.183-0400>,<monteg3>,<hudson>,<audit>,<TopSpin 4.4.1>,
+      <user comment:
+       TITLE=400uM Mpro 400 uM Nirma + 2 mM EDTA
+       20 mM tris 100 mM NaCl 2 mM DTT no TCEP 1-2% DMSO 10% D2O
+       prepared 05-07-2026 by ADF
+       has a lot of white goo on bottom and sides
+       run by TR after temp calibration with 100% MeOH
+       position 77TITLE_END
+       data hash MD5: 64K
+       77 9A 6E BF 00 0C 17 4D 0D A4 9A DE EB 55 00 23>)
+##END=
+
+$$ hash MD5
+$$ A3 B7 35 D4 A9 B9 13 EC 7A CB A3 E7 0C D0 62 AA

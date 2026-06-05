@@ -1,0 +1,66 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_2D-19F-noesy_2026-04-15/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-15T16:22:14.129-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_2D-19F-noesy_2026-04-15/1/pdata/1/auditp.txt
+(   2,<2026-04-15T16:30:53.407-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -11.19333 PHC1 = 2.013696 SI = 64K 
+       data hash MD5: 64K
+       11 40 7D 74 79 6F CC EE F0 73 CE AF 7A 11 54 59>)
+(   3,<2026-04-15T16:31:09.092-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -11.19333 PHC1 = 2.013696 SI = 64K 
+       data hash MD5: 64K
+       11 40 7D 74 79 6F CC EE F0 73 CE AF 7A 11 54 59>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/1/pdata/1/auditp.txt
+(   4,<2026-05-07T22:24:09.525-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -11.19333 PHC1 = 2.013696 SI = 64K 
+       data hash MD5: 64K
+       5D 61 BF 0A 0F F1 5C 8C 93 B1 EB 87 C8 A1 45 90>)
+(   5,<2026-05-07T22:24:13.425-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       DE 60 7B D8 2C E7 98 EB 1E 67 AA 33 D8 CE DE 94>)
+(   6,<2026-05-07T22:25:06.393-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=proton, 288 K
+       with 2 mM EDTA
+       position 5TITLE_END
+       data hash MD5: 64K
+       DE 60 7B D8 2C E7 98 EB 1E 67 AA 33 D8 CE DE 94>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_298K_2D-19F-EXSY_2026-05-08/1/pdata/1/auditp.txt
+(   7,<2026-05-08T20:50:21.152-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=proton, 298 K
+       TE=299.6 K with corr off
+       with 2 mM EDTA
+       position 5TITLE_END
+       data hash MD5: 64K
+       DE 60 7B D8 2C E7 98 EB 1E 67 AA 33 D8 CE DE 94>)
+(   8,<2026-05-08T20:52:44.960-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<audit>,<TopSpin 4.4.0>,
+      <user comment:
+       TITLE=proton, 298 K
+       TE=299.6 K with corr off
+       with 2 mM EDTA
+       position 7TITLE_END
+       data hash MD5: 64K
+       DE 60 7B D8 2C E7 98 EB 1E 67 AA 33 D8 CE DE 94>)
+(   9,<2026-05-08T21:04:10.800-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -6.77333 PHC1 = 2.013696 SI = 64K 
+       data hash MD5: 64K
+       53 C7 CA F4 F6 E8 09 09 93 C4 7C 1C 7F EF 87 7D>)
+(  10,<2026-05-08T21:04:15.400-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       9C 95 DC 2A 14 FE 9F B2 24 88 A1 0F 42 8A 80 99>)
+##END=
+
+$$ hash MD5
+$$ 1C A0 F6 22 E6 D6 18 E9 75 EB 3F F6 78 50 8C 82

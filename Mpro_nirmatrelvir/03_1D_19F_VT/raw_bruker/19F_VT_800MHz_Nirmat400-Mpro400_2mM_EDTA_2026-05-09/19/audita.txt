@@ -1,0 +1,370 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/19/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-09T11:34:38.483-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc EXPNO=19 PROCNO=1>)
+(   2,<2026-05-09T11:38:22.044-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 TE to 299.8>)
+(   3,<2026-05-09T11:50:41.013-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 32>)
+(   4,<2026-05-09T11:50:42.061-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 DS to 4>)
+(   5,<2026-05-09T11:50:54.997-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 16>)
+(   6,<2026-05-09T15:50:56.972+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(   7,<2026-05-09T15:52:15.319+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'de233c74-4bbe-11f1-adbc-0030d62dd919'
+       started at 2026-05-09 15:50:56.972 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:52:15.318 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       37 83 F7 E0 00 D7 DC D7 2E 81 FB 36 41 EB 5B 61>)
+(   8,<2026-05-09T11:52:59.910-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 DS to 2>)
+(   9,<2026-05-09T11:53:04.517-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 4>)
+(  10,<2026-05-09T11:53:14.884-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter 1 D 1 to 5.000000000>)
+(  11,<2026-05-09T15:55:07.017+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  12,<2026-05-09T15:55:49.622+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '7327434c-4bbf-11f1-bb04-0030d62dd919'
+       started at 2026-05-09 15:55:07.017 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:55:49.620 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       96 E7 4C 2B 16 27 0A 14 BD 7A 98 F2 26 EF 58 87>)
+(  13,<2026-05-09T15:55:51.269+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  14,<2026-05-09T15:56:34.801+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '8d8965d0-4bbf-11f1-adcd-0030d62dd919'
+       started at 2026-05-09 15:55:51.269 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:56:34.799 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       F4 A0 DE 84 B8 5B 6B 78 04 54 2A 11 A8 0B 61 34>)
+(  15,<2026-05-09T15:56:36.281+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  16,<2026-05-09T15:57:18.882+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'a8644ee2-4bbf-11f1-b02d-0030d62dd919'
+       started at 2026-05-09 15:56:36.281 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:57:18.878 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       EF E0 B1 C7 83 30 7F AA CC C6 EF 54 B8 2F D7 4A>)
+(  17,<2026-05-09T15:57:20.413+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  18,<2026-05-09T15:58:03.139+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'c2aea7a2-4bbf-11f1-a6db-0030d62dd919'
+       started at 2026-05-09 15:57:20.413 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:58:03.137 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       34 2B DE 82 54 8E 17 17 E0 24 B0 CE 0F 0F 5C DC>)
+(  19,<2026-05-09T15:58:04.669+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  20,<2026-05-09T15:58:47.233+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'dd106572-4bbf-11f1-88d2-0030d62dd919'
+       started at 2026-05-09 15:58:04.669 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:58:47.231 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       86 9C 84 39 D6 97 ED 4A 1B 28 27 25 F8 C0 32 F3>)
+(  21,<2026-05-09T15:58:48.734+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  22,<2026-05-09T15:59:31.293+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'f7583a40-4bbf-11f1-80e1-0030d62dd919'
+       started at 2026-05-09 15:58:48.734 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 15:59:31.292 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       4E BA 56 7C 56 17 84 D5 3E A4 13 15 E5 A4 46 3C>)
+(  23,<2026-05-09T16:01:52.050+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  24,<2026-05-09T16:02:35.631+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '6496daa8-4bc0-11f1-89df-0030d62dd919'
+       started at 2026-05-09 16:01:52.050 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:02:35.627 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       A5 8E 36 35 17 A7 78 59 5E 7C 24 BE 3A 6B 21 33>)
+(  25,<2026-05-09T16:02:37.128+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  26,<2026-05-09T16:03:20.634+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '7f7bca40-4bc0-11f1-ac8b-0030d62dd919'
+       started at 2026-05-09 16:02:37.128 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:03:20.633 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       2C E0 CE F2 FE 1B 3E 5B F0 FD 6E A1 07 59 8B 7E>)
+(  27,<2026-05-09T16:03:22.125+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  28,<2026-05-09T16:04:04.721+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '9a4ae7d4-4bc0-11f1-a4bf-0030d62dd919'
+       started at 2026-05-09 16:03:22.125 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:04:04.717 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       16 9C ED 3D EC 04 3D EA 0F 39 11 AF 69 03 4A 73>)
+(  29,<2026-05-09T16:04:06.441+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  30,<2026-05-09T16:04:49.876+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'b4b08a02-4bc0-11f1-bf19-0030d62dd919'
+       started at 2026-05-09 16:04:06.441 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:04:49.874 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       8F 52 BA 6C D3 CE 89 17 8D 4F 23 74 0B 93 5F ED>)
+(  31,<2026-05-09T16:07:25.775+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  32,<2026-05-09T16:08:08.514+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '2b83b780-4bc1-11f1-89ea-0030d62dd919'
+       started at 2026-05-09 16:07:25.775 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:08:08.513 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       E0 76 79 8D 28 5A BF 20 52 98 6E 76 EA 54 A0 C9>)
+(  33,<2026-05-09T16:08:10.058+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  34,<2026-05-09T16:08:53.595+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '45e7b4be-4bc1-11f1-aa2d-0030d62dd919'
+       started at 2026-05-09 16:08:10.058 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:08:53.593 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       73 AB BF F4 22 38 BF 9B 8B AF B0 6C 90 E4 9A 90>)
+(  35,<2026-05-09T16:08:55.121+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  36,<2026-05-09T16:09:37.667+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '60c368f0-4bc1-11f1-9b3c-0030d62dd919'
+       started at 2026-05-09 16:08:55.121 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:09:37.666 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       66 0F 85 1A 84 6E 28 82 DD 14 07 E1 D4 38 CB D6>)
+(  37,<2026-05-09T16:09:39.234+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  38,<2026-05-09T16:10:21.882+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '7b07dc00-4bc1-11f1-b621-0030d62dd919'
+       started at 2026-05-09 16:09:39.233 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:10:21.880 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       06 F7 0D 0D 0B AD 9B FB B4 15 8C 77 DF 2F F3 3B>)
+(  39,<2026-05-09T16:10:23.356+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  40,<2026-05-09T16:11:06.727+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '955eea12-4bc1-11f1-802b-0030d62dd919'
+       started at 2026-05-09 16:10:23.356 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:11:06.726 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       6B 5A AD 46 90 01 D2 59 28 20 42 CB D6 CF C5 EE>)
+(  41,<2026-05-09T16:11:08.212+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  42,<2026-05-09T16:11:50.786+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'b01b3a68-4bc1-11f1-ab14-0030d62dd919'
+       started at 2026-05-09 16:11:08.212 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:11:50.784 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       F7 5E 11 F7 4E 2D 5A 7D 9E 7B D4 9C F1 C4 84 49>)
+(  43,<2026-05-09T16:11:52.358+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  44,<2026-05-09T16:12:35.093+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'ca6836b4-4bc1-11f1-9402-0030d62dd919'
+       started at 2026-05-09 16:11:52.357 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:12:35.092 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       AF 1D 50 57 F9 9F B2 54 1D 07 95 DF 57 3B B2 0E>)
+(  45,<2026-05-09T12:13:30.572-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 DS to 0>)
+(  46,<2026-05-09T12:13:34.723-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 2>)
+(  47,<2026-05-09T12:13:44.497-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter 1 D 1 to 6.000000000>)
+(  48,<2026-05-09T16:14:42.870+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  49,<2026-05-09T16:15:00.108+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '3009e580-4bc2-11f1-9f6b-0030d62dd919'
+       started at 2026-05-09 16:14:42.870 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:15:00.104 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       BD D6 1C 45 35 9B AB 42 12 9F 48 E5 A9 C1 D6 96>)
+(  50,<2026-05-09T16:15:01.705+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  51,<2026-05-09T16:15:19.835+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '3b438fa0-4bc2-11f1-8e7a-0030d62dd919'
+       started at 2026-05-09 16:15:01.705 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:15:19.833 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       DB 5A EF 38 B5 3C 0F 09 A0 70 DB B8 45 95 44 9F>)
+(  52,<2026-05-09T16:15:21.497+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  53,<2026-05-09T16:15:38.671+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '46f9aa5a-4bc2-11f1-a6a7-0030d62dd919'
+       started at 2026-05-09 16:15:21.497 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:15:38.670 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       B0 F5 BF D1 B6 39 2F 9E FC C1 D3 27 E1 92 EF 8B>)
+(  54,<2026-05-09T16:15:40.185+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  55,<2026-05-09T16:15:57.487+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '5233cc98-4bc2-11f1-9fea-0030d62dd919'
+       started at 2026-05-09 16:15:40.185 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:15:57.485 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       9E 19 7C E3 9A 5F E9 08 57 69 C5 36 83 FB 75 43>)
+(  56,<2026-05-09T16:15:58.977+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  57,<2026-05-09T16:16:16.283+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '5d692f54-4bc2-11f1-8e56-0030d62dd919'
+       started at 2026-05-09 16:15:58.977 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:16:16.281 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       83 A5 56 30 6E 9A 10 E5 96 80 92 7E 01 44 71 06>)
+(  58,<2026-05-09T16:16:17.872+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  59,<2026-05-09T16:16:35.867+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '68b015a8-4bc2-11f1-bdbb-0030d62dd919'
+       started at 2026-05-09 16:16:17.872 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:16:35.865 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       A5 0C 04 B3 B6 20 9F 6B 32 88 EB DC A9 57 71 B4>)
+(  60,<2026-05-09T16:16:37.418+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  61,<2026-05-09T16:16:54.761+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '7451f76e-4bc2-11f1-9c88-0030d62dd919'
+       started at 2026-05-09 16:16:37.418 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:16:54.760 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       23 E9 09 FE 2A 80 09 F8 89 BE AB C2 7B 1C 79 CE>)
+(  62,<2026-05-09T16:16:56.261+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  63,<2026-05-09T16:17:13.564+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '7f8e45ce-4bc2-11f1-bb81-0030d62dd919'
+       started at 2026-05-09 16:16:56.261 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:17:13.562 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       EA 96 D5 C8 0E 61 EF DD B6 EE 4E 45 A7 4F 53 0D>)
+(  64,<2026-05-09T16:17:15.537+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  65,<2026-05-09T16:17:33.682+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '8b095cf4-4bc2-11f1-aa8a-0030d62dd919'
+       started at 2026-05-09 16:17:15.537 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:17:33.680 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       63 40 32 B3 67 B7 FE 09 5A 8A BA FA F5 2A 31 FD>)
+(  66,<2026-05-09T16:17:35.269+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  67,<2026-05-09T16:17:52.527+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID '96cba6aa-4bc2-11f1-a6ad-0030d62dd919'
+       started at 2026-05-09 16:17:35.269 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:17:52.523 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       65 FD 14 DC 44 13 3D CF F3 CB FB F6 46 7E A6 9B>)
+(  68,<2026-05-09T16:17:54.140+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  69,<2026-05-09T16:18:11.529+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'a20b4b06-4bc2-11f1-a844-0030d62dd919'
+       started at 2026-05-09 16:17:54.140 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:18:11.527 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       23 3D 42 89 46 E2 C4 01 17 79 D8 76 ED 94 46 80>)
+(  70,<2026-05-09T12:18:47.314-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter 1 P 1 to 14.1000>)
+(  71,<2026-05-09T12:18:51.651-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 DS to 2>)
+(  72,<2026-05-09T12:18:53.872-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 NS to 4>)
+(  73,<2026-05-09T16:19:02.367+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <raw data deleted by zg>)
+(  74,<2026-05-09T16:19:02.371+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <acquisition in progress>)
+(  75,<2026-05-09T16:19:50.993+0000>,<monteg3>,<hudson>,<go4>,<TopSpin 4.4.1>,
+      <created by zg on 'Avance' (hudson) by user 'monteg3'
+       on data set with UUID 'cab99328-4bc2-11f1-99f9-0030d62dd919'
+       started at 2026-05-09 16:19:02.371 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 16:19:50.992 +0000
+       configuration hash MD5:
+       94 DF 8E 2A 8C 25 FE BA E7 EC E2 64 A1 21 00 DD
+       double data hash MD5: 32K
+       8B 42 DD BB C5 D3 22 CB A8 59 D8 2C 16 10 28 3D>)
+##END=
+
+$$ hash MD5
+$$ DE 44 3A 46 15 65 CA 8A 6B 8E 0C 0B 4D DA D5 B8

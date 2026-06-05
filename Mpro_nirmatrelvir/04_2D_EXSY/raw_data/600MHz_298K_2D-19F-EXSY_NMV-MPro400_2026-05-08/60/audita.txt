@@ -1,0 +1,56 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_2D-19F-noesy_2026-04-15/60/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-15T16:23:44.942-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc EXPNO=60 PROCNO=1>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_2D-19F-noesy_2026-04-15/60/audita.txt
+(   2,<2026-04-15T16:40:27.580-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter 1 P 1 to 13.0000>)
+(   3,<2026-04-15T21:36:00.015+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   4,<2026-04-15T22:32:02.486+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '18271210-3913-11f1-81a4-0030d62e2a2f'
+       started at 2026-04-15 21:36:00.015 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-04-15 22:32:02.483 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       20 9A D7 93 AC A6 A1 F3 01 86 48 DC FD B5 22 25>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_288K_2D-19F-EXSY_2026-05-07/60/audita.txt
+(   5,<2026-05-08T07:13:25.227+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <raw data deleted by zg>)
+(   6,<2026-05-08T07:13:25.228+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(   7,<2026-05-08T08:09:28.678+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '676a81ee-4aad-11f1-939b-0030d62e2a2f'
+       started at 2026-05-08 07:13:25.228 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-08 08:09:28.675 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       E7 04 C8 BE 00 49 8E 60 F7 52 A4 38 54 DD 4F EC>)
+$$ /opt/nmrdata/data/monteg3/ADF_Nirmat-Mpro_EDTA_298K_2D-19F-EXSY_2026-05-08/60/audita.txt
+(   8,<2026-05-08T20:51:55.149-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F2 TE to 299.6>)
+(   9,<2026-05-09T05:47:44.405+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <raw data deleted by zg>)
+(  10,<2026-05-09T05:47:44.405+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <acquisition in progress>)
+(  11,<2026-05-09T06:43:48.037+0000>,<monteg3>,<mohawk>,<go4>,<TopSpin 4.4.0>,
+      <created by zg on 'Avance' (mohawk) by user 'monteg3'
+       on data set with UUID '99aaae5a-4b6a-11f1-b211-0030d62e2a2f'
+       started at 2026-05-09 05:47:44.405 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-09 06:43:48.034 +0000
+       configuration hash MD5:
+       01 9B 14 A8 BD 4B EE B8 AB BA 4F 02 33 F9 C2 76
+       double data hash MD5: 512 * 24
+       34 10 2C 1A 9C 80 34 16 5F 9F A1 A2 05 82 A0 9E>)
+##END=
+
+$$ hash MD5
+$$ 4E B7 79 C6 91 D0 64 16 17 B3 A3 0A FB D4 5E 71

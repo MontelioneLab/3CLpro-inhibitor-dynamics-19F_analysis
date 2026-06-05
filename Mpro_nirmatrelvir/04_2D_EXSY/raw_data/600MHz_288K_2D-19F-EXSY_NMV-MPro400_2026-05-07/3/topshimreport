@@ -1,0 +1,46 @@
+
+New TopShim run:
+
+version = topshim 4.4.0
+date = 2026-05-08
+time = 07:38:14.294
+command = topshim 1d optsolvent coil=1H optsolvent tuneaoff
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168568_0025
+solvent = H2O+D2O
+shim nucleus = 1H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+Iteration 1: FWHM Before= 1.2 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration 2: FWHM Before= 0.4 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration 3: FWHM Before= 0.4 Hz, Target= 0.3 Hz, After= 0.3 Hz
+Iteration 4: FWHM Before= 0.3 Hz, Target= 0.3 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.411
+
+shim changes: 
+Z	+68
+Z2	+4
+Z3	-7
+Z4	+18
+Z5	+14
+Z6	+56
+Z7	-181
+Z8	-2213
+
+duration = 39 sec
+completed successfully
+finished Fri May  8 07:38:52 2026
+
+
+========================================================================

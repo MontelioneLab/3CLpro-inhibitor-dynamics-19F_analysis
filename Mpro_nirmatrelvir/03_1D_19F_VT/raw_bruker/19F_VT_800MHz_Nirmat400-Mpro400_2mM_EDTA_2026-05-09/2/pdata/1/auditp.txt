@@ -1,0 +1,55 @@
+##TITLE= Audit trail, TopSpin 4.4.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-09/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-09T11:33:46.006-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-09T11:45:05.805-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 32K
+       fid double data hash MD5: 32K
+       7D 23 A7 BD A3 AD 22 9A 3C BF DF C6 C2 8F B3 FD
+       data hash MD5: 32K
+       CB D1 63 04 F2 A3 B2 E5 4E C9 5E 98 28 DE 6D 09>)
+(   3,<2026-05-09T11:45:05.862-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <ft FT_mod = 6 PKNL = 1 SI = 32K
+       data hash MD5: 32K
+       3D 8B 29 82 36 27 D0 F7 17 80 C1 0B C7 D4 88 CA>)
+(   4,<2026-05-09T11:45:06.021-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk
+       data hash MD5: 32K
+       E2 40 39 75 CA 28 87 57 36 E9 83 CE 5F 94 90 13>)
+(   5,<2026-05-09T11:45:06.069-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <abs n ABSG = 0
+       data hash MD5: 32K
+       FF 85 1D F2 27 8D 46 E9 A8 04 14 7B 5A 80 E7 C9>)
+(   6,<2026-05-09T11:45:41.301-0400>,<monteg3>,<hudson>,<audit>,<TopSpin 4.4.1>,
+      <user comment:
+       TITLE=1D 1H 298 K
+       set 299.8 K with corr off
+       before 19F VT seriesTITLE_END
+       data hash MD5: 32K
+       FF 85 1D F2 27 8D 46 E9 A8 04 14 7B 5A 80 E7 C9>)
+(   7,<2026-05-09T11:45:46.637-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <apk0
+       data hash MD5: 32K
+       89 F3 9A A3 EE 02 86 3D 64 D9 64 E5 15 AF 14 45>)
+(   8,<2026-05-09T11:46:11.394-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <pk fgphup PHC0 = 5.9625 PHC1 = 0
+       data hash MD5: 32K
+       C6 7C 15 2F 4C 77 7A AC F7 AC CD B3 13 04 8D B6>)
+(   9,<2026-05-09T11:46:39.968-0400>,<monteg3>,<hudson>,<cprserver>,<TopSpin 4.4.1>,
+      <changed parameter F1 LB to 5.00>)
+(  10,<2026-05-09T11:46:41.002-0400>,<monteg3>,<hudson>,<proc1d>,<TopSpin 4.4.1>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 139.2808 PHC1 = 32.06979 SI = 32K
+       fid double data hash MD5: 32K
+       7D 23 A7 BD A3 AD 22 9A 3C BF DF C6 C2 8F B3 FD
+       data hash MD5: 32K
+       99 BA E8 00 EE 53 CA BB 62 3C 76 30 F5 85 95 47>)
+##END=
+
+$$ hash MD5
+$$ 0C 76 D1 DC 80 07 6C 6A 2D A6 B9 E1 DE 92 23 04

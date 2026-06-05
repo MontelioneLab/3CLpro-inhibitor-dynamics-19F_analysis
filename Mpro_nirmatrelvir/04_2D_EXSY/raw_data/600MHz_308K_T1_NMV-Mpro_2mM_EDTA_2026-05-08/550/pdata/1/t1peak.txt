@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2026-05-19T09:51:46">
+  <PeakList1D>
+    <PeakList1DHeader creator="ramelt2" date="2026-05-19T09:51:46" expNo="1" name="~TEMP" owner="" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04">
+      <PeakPickDetails>F1=-71.797081ppm, F2=-71.854034ppm, MI=14.42cm, MAXI=15.40cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="-71.82254" intensity="15.0" type="0"/>
+  </PeakList1D>
+  <PeakList1D>
+    <PeakList1DHeader creator="ramelt2" date="2026-05-19T09:51:46" expNo="1" name="~TEMP" owner="" procNo="1" source="/Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04">
+      <PeakPickDetails>F1=-72.043884ppm, F2=-72.075073ppm, MI=8.23cm, MAXI=9.23cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="-72.057709" intensity="8.644532" type="0"/>
+  </PeakList1D>
+</PeakList>

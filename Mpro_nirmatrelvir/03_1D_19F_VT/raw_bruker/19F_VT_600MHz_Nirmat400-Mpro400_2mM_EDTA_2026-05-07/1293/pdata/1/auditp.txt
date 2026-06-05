@@ -1,0 +1,73 @@
+##TITLE= Audit trail, TopSpin 4.4.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= monteg3
+$$ /opt/nmrdata/data/monteg3/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/1293/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-07T19:55:50.474-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <new/edc PROCNO=1>)
+(   2,<2026-05-07T20:14:57.203-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 10.00>)
+(   3,<2026-05-07T21:40:49.892-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 51.20655 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       61 BC D2 25 FF E4 A4 5A 6F 41 D0 9D D9 07 7A 6D>)
+(   4,<2026-05-07T21:40:52.718-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       B8 F4 73 02 FC 46 17 38 36 B3 11 A0 4A FD F2 EA>)
+(   5,<2026-05-07T21:40:53.602-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       84 73 9A C0 4E FE 27 D7 98 3E 99 71 7A 73 26 7D>)
+(   6,<2026-05-08T08:50:59.734-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<cprserver>,<TopSpin 4.4.0>,
+      <changed parameter F1 LB to 5.00>)
+(   7,<2026-05-08T08:51:00.598-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 46.88654 PHC1 = -18 SI = 64K 
+       data hash MD5: 64K
+       FC F4 E0 65 BE FE 85 EB F5 5F 66 26 C0 99 F2 F7>)
+(   8,<2026-05-08T08:51:01.733-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       B1 76 D3 A6 4B 0F 0A 1E D9 A9 C7 84 27 B2 B7 09>)
+(   9,<2026-05-08T08:51:03.352-0400>,<monteg3>,<mohawk.biotech.rpi.edu>,<proc1d>,<TopSpin 4.4.0>,
+      <apk0 
+       data hash MD5: 64K
+       F6 82 BA 13 13 D5 DC C7 29 B6 9B 0B 69 50 10 3E>)
+$$ /Users/ramelt2/Library/CloudStorage/Box-Box/Montelione-Lab-Box/MPro_NMR_and_MS_data_and_analysis/MPro-Nirmatrelvir_19F-NMR/Mohawk-600-EDTA-Mpro-2026-04/ADF_TR_Nirmat400-Mpro400_EDTA_VT_2026-05-07/1293/pdata/1/auditp.txt
+(  10,<2026-05-11 19:13:54.785 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 0 PHC1 = 0 SI = 64K 
+       data hash MD5: 64K
+       4C 76 8E BD BB 33 6B 75 C7 4D F7 60 DD 84 90 4E>)
+(  11,<2026-05-11 19:13:56.907 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <apk0 
+       data hash MD5: 64K
+       23 6D 9D 97 11 60 DE 04 BE AA 7A 9D 43 CE 85 2D>)
+(  12,<2026-05-11 19:14:09.300 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 37.64 PHC1 = 0 SI = 64K 
+       data hash MD5: 64K
+       54 47 79 A1 41 F3 90 06 0A 8A 9F 26 67 6E 35 B1>)
+(  13,<2026-05-11 19:14:09.360 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       1E 79 93 DC 16 2D B3 43 18 46 98 70 54 61 0C 09>)
+(  14,<2026-05-11 19:14:09.628 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -4 ABSF1 = 4 
+       data hash MD5: 64K
+       DB 0A 3D 86 4B D9 69 06 C6 52 EB 1D 0E FD C9 0A>)
+(  15,<2026-05-11 19:14:09.927 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -3 ABSF1 = 3 
+       data hash MD5: 64K
+       64 7B 4D 7C 38 90 4F 6E C0 F5 84 3C DA 63 5D 74>)
+(  16,<2026-05-11 19:14:10.187 -0400>,<ramelt2>,<MacBookPro-TR-work-2.local>,<proc1d>,<TopSpin 4.0.9>,
+      <absf ABSG = 5 ABSF2 = -2 ABSF1 = 2 
+       data hash MD5: 64K
+       FA AC B4 D9 3A 37 7E 7C 03 99 4C 90 AF 85 37 74>)
+##END=
+
+$$ hash MD5
+$$ 34 88 FC F3 D1 AD C4 72 54 B8 45 FA F0 65 BD 69

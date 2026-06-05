@@ -1,0 +1,102 @@
+
+New TopShim run:
+
+version = topshim 4.4.1
+date = 2026-05-09
+time = 11:37:19.904
+command = topshim 
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168572_0008
+solvent = H2O+D2O
+shim nucleus = 1H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+Iteration 1: FWHM Before= 0.6 Hz, Target= 0.2 Hz, After= 0.5 Hz
+Iteration 2: FWHM Before= 0.5 Hz, Target= 0.6 Hz, After= 0.5 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.609
+
+shim changes: 
+Z	+95
+Z2	-117
+Z3	+50
+Z4	+128
+Z5	+73
+Z6	-1800
+
+duration = 32 sec
+completed successfully
+finished Sat May  9 11:37:51 2026
+
+
+========================================================================
+
+New TopShim run:
+
+version = topshim 4.4.1
+date = 2026-05-09
+time = 12:53:11.993
+command = topshim 
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z168572_0008
+solvent = H2O+D2O
+shim nucleus = 1H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+Low S/N encountered. The acquisition parameters will be changed to improve this issue.
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 1: FWHM Before= 2.2 Hz, Target= 0.5 Hz, After= 0.8 Hz
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 2: FWHM Before= 0.8 Hz, Target= 0.3 Hz, After= 1.0 Hz
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 3: FWHM Before= 1.0 Hz, Target= 0.7 Hz, After= 1.4 Hz
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 4: FWHM Before= 1.4 Hz, Target= 0.3 Hz, After= 0.3 Hz
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 5: FWHM Before= 0.3 Hz, Target= 0.4 Hz, After= 0.5 Hz
+Required SINO has not been achieved!
+Please increase DURMAX if a better map quality is needed.
+Iteration 6: FWHM Before= 0.5 Hz, Target= 0.5 Hz, After= 1.0 Hz
+Using the best result as the final shim state.
+
+Lineshape quality factor (1D spectrum, spinning) = 0.623
+
+shim changes: 
+Z	-68
+Z2	+30
+Z3	+335
+Z4	-446
+Z5	-607
+
+duration = 12 min 16 sec
+completed successfully
+finished Sat May  9 13:05:27 2026
+
+
+========================================================================

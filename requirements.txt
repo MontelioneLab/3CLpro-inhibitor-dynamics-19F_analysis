@@ -1,5 +1,4 @@
-numpy>=1.20.0
-scipy>=1.7.0
-matplotlib>=3.4.0
-pandas
-#lmfit  # (Only if you used lmfit, otherwise remove)
+numpy==2.3.4
+scipy==1.16.3
+matplotlib==3.10.1
+pandas==2.2.3

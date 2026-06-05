@@ -1,0 +1,52 @@
+
+Current Data Parameters
+NAME     ADF_Mpro150_Zn_EDTA_2026-04-14_hudson              
+EXPNO                21              
+PROCNO                1              
+
+F2 - Acquisition Parameters
+Date_          20260414              
+Time              16.33 h            
+INSTRUM          Avance              
+PROBHD   Z168572_0008 (              
+PULPROG          zgesgp              
+TD                32768              
+SOLVENT         H2O+D2O              
+NS                  563              
+DS                    4              
+SWH           11904.762 Hz           
+FIDRES         0.726609 Hz           
+AQ            1.3762560 sec          
+RG                  101              
+DW               42.000 usec         
+DE                18.00 usec         
+TE                303.0 K            
+D1           2.00000000 sec          
+D12          0.00002000 sec          
+D16          0.00020000 sec          
+TD0                   1              
+SFO1        800.1437447 MHz          
+NUC1                 1H              
+P1                10.82 usec         
+P2                21.65 usec         
+P12             2000.00 usec         
+PLW0                  0 W            
+PLW1         9.77239990 W            
+SPNAM[1]     Sinc1.1000              
+SPOAL1            0.500              
+SPOFFS1               0 Hz           
+SPW1         0.00329890 W            
+GPNAM[1]     SMSQ10.100              
+GPZ1              31.00 %            
+GPNAM[2]     SMSQ10.100              
+GPZ2              11.00 %            
+P16             1000.00 usec         
+
+F2 - Processing parameters
+SI                32768              
+SF          800.1400000 MHz          
+WDW                  EM              
+SSB                   0              
+LB                 6.00 Hz           
+GB                    0              
+PC                 1.00              

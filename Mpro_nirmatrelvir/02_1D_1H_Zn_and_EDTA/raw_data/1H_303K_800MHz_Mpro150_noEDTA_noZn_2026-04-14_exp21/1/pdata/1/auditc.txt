@@ -1,0 +1,5 @@
+TITLE=150uM Mpro, 303K 1D 1H experiments
+20 mM tris 100 mM NaCl 5 mM DTT 1 mM TCEP 10% D2O
+prepared 14.14.2026
+
+exp 11, long 1DTITLE_END

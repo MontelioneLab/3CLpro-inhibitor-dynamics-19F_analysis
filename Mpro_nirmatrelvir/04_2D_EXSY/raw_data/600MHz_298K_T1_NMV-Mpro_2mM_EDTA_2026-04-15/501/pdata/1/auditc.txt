@@ -1,0 +1,6 @@
+TITLE=proton
+with 2 mM EDTA
+
+old sample from 4/8/2026, white goo on bottom
+TE=299.8, corr off is 298 K
+position 8TITLE_END

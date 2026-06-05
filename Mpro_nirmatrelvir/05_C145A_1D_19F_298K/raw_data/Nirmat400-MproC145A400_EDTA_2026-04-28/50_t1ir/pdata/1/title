@@ -1,0 +1,5 @@
+F19 T1 measurement at 298K
+rpar PROTONT1
+set vdlist
+setup for 19F
+d1=20 s

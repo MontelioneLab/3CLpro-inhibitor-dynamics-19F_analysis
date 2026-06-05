@@ -1,0 +1,8 @@
+TITLE=19F - long 1D
+d1= 4 x T1 = 6.4sec to get accurate integrals.
+updated with calibrated p1 and power for 19F
+13 us at 8 Watts.
+TE=299.6 is 298 K
+pos 7
+
+repeating because other 298, and 1298 look too low.TITLE_END
