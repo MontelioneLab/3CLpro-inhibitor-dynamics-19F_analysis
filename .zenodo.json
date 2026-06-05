@@ -1,0 +1,13 @@
+{
+  "title": "3CLpro-inhibitor-dynamics-19F_analysis",
+  "description": "Python scripts for analyzing 19F NMR lineshape data to characterize the conformational exchange of SARS-CoV-2 3CLpro inhibitors. This includes global lineshape fitting, thermodynamic analysis, kinetic analysis, and EXSY validation.",
+  "creators": [
+    {
+      "name": "Ramelot, Theresa A.",
+      "affiliation": "Rensselaer Polytechnic Institute"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["19F NMR", "3CLpro", "lineshape analysis", "protein dynamics", "SARS-CoV-2"]
+}
