@@ -2,8 +2,8 @@
 
 This repository contains the Python scripts and experimental 19F NMR data
 associated with the paper:
-**"[Title of Your Paper]"**
-*Authors: [List Authors]*
+**"Slowly-exchanging bound states of SARS-CoV-2 3CLpro-inhibitor complexes revealed by 19F NMR"**
+*Authors: Anna De Falco, Ben Shurina, Rebecca Greene-Cramer, Theresa A. Ramelot, and Gaetano T. Montelione*
 *Journal: [Journal Name], 2026*
 
 ---
