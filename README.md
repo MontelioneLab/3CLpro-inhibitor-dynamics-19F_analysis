@@ -1,4 +1,4 @@
-# NMR Dynamics Analysis of SARS-CoV-2 3CLpro Inhibitors
+# NMR Dynamics Analysis of SARS-CoV-2 3CL<sup>pro</sup> Inhibitors
 
 This repository contains the Python scripts and experimental 19F NMR data
 associated with the paper:
