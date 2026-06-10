@@ -1,0 +1,23 @@
+Extracting Raw Maxima from 6 spectra...
+T=288 K | Peak A (+Hz): 643.1 | Peak B (-Hz): -524.2 | dnu: 1167.4 Hz
+T=293 K | Peak A (+Hz): 691.1 | Peak B (-Hz): -483.1 | dnu: 1174.2 Hz
+T=298 K | Peak A (+Hz): 771.7 | Peak B (-Hz): -434.4 | dnu: 1206.0 Hz
+T=303 K | Peak A (+Hz): 762.9 | Peak B (-Hz): -424.1 | dnu: 1187.0 Hz
+T=308 K | Peak A (+Hz): 839.1 | Peak B (-Hz): -355.0 | dnu: 1194.0 Hz
+T=313 K | Peak A (+Hz): 892.1 | Peak B (-Hz): -313.8 | dnu: 1205.9 Hz
+
+============================================================
+ INDEPENDENT LINEARITY CONFIRMATION REPORT
+============================================================
+FIT TYPE 1: USING ALL TEMPERATURES
+  Slope:          1.332 Hz/K
+  298K Intercept: 1185.8 Hz
+  R-squared (R²): 0.6006
+  Script 02 Ready:  dnu = 1185.8 + 1.3*(T - 298)
+------------------------------------------------------------
+FIT TYPE 2: USING ONLY LOW TEMPERATURES (<= 298 K)
+  Slope:          3.866 Hz/K
+  298K Intercept: 1201.9 Hz
+  R-squared (R²): 0.8770
+  Script 02 Ready:  dnu = 1201.9 + 3.9*(T - 298)
+============================================================

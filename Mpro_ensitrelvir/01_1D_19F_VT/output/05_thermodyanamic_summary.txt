@@ -1,0 +1,13 @@
+=== ENSITRELVIR THERMODYNAMIC & KINETIC SUMMARY ===
+
+GROUND STATE THERMODYNAMICS (Van't Hoff Summary)
+---------------------------------------------
+dH (deg)     = 0.0487 +/- 1.401 kcal/mol
+dS (deg)     = -0.804 +/- 4.67 cal/mol/K
+dG (298 K)   = 0.2882 +/- 1.842 kcal/mol
+R2           = 0.0023
+
+ACTIVATION KINETICS (Simulated from 1D Lineshapes)
+---------------------------------------------
+Note: Based on kex at 298 K derived from global fit analysis
+dG# (298 K)  = [Value] kcal/mol

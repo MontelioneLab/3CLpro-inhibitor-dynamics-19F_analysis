@@ -1,0 +1,8 @@
+ENSITRELVIR HIGH-RES OPTIMIZED VALIDATION LOG
+Source: vt_global_fit.npz | Temp: 298.0 K
+------------------------------------------------------------
+Optimized Population (pB):    39.58%
+Master Archive Baseline Sep:  1186.00 Hz
+High-Res Recovered Sep:       1182.76 Hz
+Archive Predicted wB (FWHM):  155.5 Hz
+Recovered True High-Res FWHM: 195.5 Hz
