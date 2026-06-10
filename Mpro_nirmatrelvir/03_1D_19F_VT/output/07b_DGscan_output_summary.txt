@@ -1,0 +1,46 @@
+============================================================
+DUAL-FIELD DNMR / EXSY PROFILE SCAN ANALYSIS SUMMARY
+============================================================
+Methodology Description:
+This analysis performs a 1D structural grid scan across activation free energy 
+bounds (DG‡ 298 K). At each step, a multi-variable nonlinear least-squares 
+regression evaluates simultaneous lineshape fitting targets for 600 MHz and 
+800 MHz spectra across 10 temperature profiles. Explicit internal EXSY kinetic 
+restraints are applied using weighted bootstrap deviation penalties.
+
+Statistical Confidence Interval Assignment:
+Parameter distributions are defined using an expansion envelope tracking 
+relative Residual Sum of Squares (RSS) tolerance limits above the global minimum.
+By capturing the covariance profile paths directly, parameter compensation 
+artifacts (such as enthalpy-entropy compensation error) are preserved.
+  - 68% Confidence Bounds: RSS cutoff threshold = 1.08 × RSS_min
+  - 95% Confidence Bounds: RSS cutoff threshold = 1.25 × RSS_min
+
+------------------------------------------------------------
+GLOBAL OPTIMIZATION RESULTS:
+------------------------------------------------------------
+Minimum Achieved RSS (Global Optimum) : 112.9007
+Best-fit Activation Parameters:
+  - DG‡ (298 K) : 15.10 kcal/mol
+  - DH‡        : 13.78 kcal/mol
+  - DS‡        : -4.42 cal/mol/K
+  - kex (298 K) : 52.4 s^-1
+
+------------------------------------------------------------
+68% CONFIDENCE INTERVALS (1-Sigma Envelope):
+------------------------------------------------------------
+Keeping 23 matching coordinates within RSS <= 121.933
+  - DG‡ (298 K) : [15.01 to 15.23] kcal/mol
+  - DH‡        : [12.57 to 16.11] kcal/mol
+  - DS‡        : [-8.20 to 2.94] cal/mol/K
+  - kex (298 K) : [42.1 to 61.0] s^-1
+
+------------------------------------------------------------
+95% CONFIDENCE INTERVALS (2-Sigma Envelope):
+------------------------------------------------------------
+Keeping 43 matching coordinates within RSS <= 141.126
+  - DG‡ (298 K) : [14.94 to 15.36] kcal/mol
+  - DH‡        : [11.82 to 18.95] kcal/mol
+  - DS‡        : [-10.46 to 12.06] cal/mol/K
+  - kex (298 K) : [33.8 to 68.6] s^-1
+============================================================

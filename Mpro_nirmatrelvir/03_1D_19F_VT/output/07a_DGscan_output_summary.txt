@@ -1,0 +1,18 @@
+============================================================
+DUAL-FIELD ACTIVATION INFRASTRUCTURE GRID SCAN SUMMARY
+============================================================
+Minimum RSS (Global Optimum Value): 112.9007
+Best-fit Coordinated Solution Vectors:
+  - DG‡ (298 K) : 15.10 kcal/mol
+  - DH‡        : 13.78 kcal/mol
+  - DS‡        : -4.42 cal/mol/K
+  - kex (298 K) : 52.4 s^-1
+
+68% Confidence Interval Profile Limits (RSS <= 121.933):
+  - DG‡ (298 K) : [15.01 to 15.23] kcal/mol
+  - kex (298 K) : [42.1 to 61.0] s^-1
+
+95% Confidence Interval Profile Limits (RSS <= 141.126):
+  - DG‡ (298 K) : [14.94 to 15.36] kcal/mol
+  - kex (298 K) : [33.8 to 68.6] s^-1
+============================================================

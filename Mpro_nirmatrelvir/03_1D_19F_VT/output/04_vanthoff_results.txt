@@ -1,0 +1,10 @@
+============================================================
+VAN'T HOFF MATRIX REGRESSION RESULTS
+============================================================
+
+600 MHz included temperatures: [285, 288, 291, 293, 296]
+800 MHz included temperatures: [285, 288, 293, 298]
+
+dH0      = 0.0000 kcal/mol
+dS0      = 4.0762 cal/mol/K
+dG0(298) = -1.2147 kcal/mol

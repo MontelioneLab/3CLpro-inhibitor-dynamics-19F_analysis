@@ -1,0 +1,12 @@
+============================================================
+VAN'T HOFF THERMODYNAMIC ANALYSIS
+============================================================
+
+Error bar layout = SD
+
+600 MHz included temperatures: [285, 288, 291, 293, 296]
+800 MHz included temperatures: [285, 288, 293, 298]
+
+dH0      = 1.5480 kcal/mol
+dS0      = 4.0762 cal/mol/K
+dG0(298) = 0.3333 kcal/mol

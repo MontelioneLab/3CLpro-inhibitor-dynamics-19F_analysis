@@ -1,0 +1,20 @@
+=================================================
+EXSY SIMULATION SUMMARY
+=================================================
+
+T           : 298 K
+kex         : 30.0 s^-1
+T1          : 1.50 s
+pB          : 0.371
+dnu         : 134.35 Hz
+lwA         : 76.42 Hz
+lwB         : 88.12 Hz
+
+     5 ms   Diag=0.426   Cross=0.047
+    10 ms   Diag=0.410   Cross=0.092
+    20 ms   Diag=0.381   Cross=0.174
+    30 ms   Diag=0.356   Cross=0.244
+    45 ms   Diag=0.326   Cross=0.328
+    60 ms   Diag=0.304   Cross=0.388
+    80 ms   Diag=0.286   Cross=0.441
+   100 ms   Diag=0.275   Cross=0.471
